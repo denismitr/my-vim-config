@@ -1,8 +1,44 @@
+"============================================================================
+"" Fold lines according to the file's syntax
+"============================================================================
+
+set foldmethod=syntax
+
+"============================================================================
+" Fold lines for which the specified expression produces a fold-level
+"============================================================================
+
+set foldexpr=strlen(matchstr(getline(v:lnum),'^-*'))
+set foldmethod=expr
+
+"============================================================================
+" Make folds auto-open and auto-close when the cursor moves
+"over them
+"============================================================================
+
+:set foldopen=all
+:set foldclose=all
+
+"============================================================================
+" Show/hide fold structure in the left margin
+"============================================================================
+
+:set foldcolumn=6
+:set foldcolumn&
+
+"============================================================================
+" Turn on the ruler in the status line
+"============================================================================
+
+set ruler
+
 set nocompatible              " be iMproved, required
 
 set t_Co=256
 set mouse=a
 set cursorline
+set autowriteall
+set complete=.,w,b,u
 
 filetype on
 filetype indent on
@@ -11,6 +47,8 @@ filetype plugin on
 call pathogen#infect()
 
 set regexpengine=1
+set ignorecase
+set smartcase
 
 syntax enable
 
@@ -23,6 +61,7 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set tabstop=4
+set smarttab
 
 "--------------Mapping--------------------"
 
@@ -53,15 +92,19 @@ nmap tj :tabprev<cr>
 nmap th :tabfirst<cr>
 nmap tl :tablast<cr>
 
-nmap <C-R> :CtrlPBufTag<cr>
+nmap <C-y> :CtrlPBufTag<cr>
 nmap <C-e> :CtrlPMRUFiles<cr>
+
+"Other mappings"
+nmap <C-s> :w<cr>
+imap <C-s> :w<cr>
 
 "Multi0cursor mapping"
 
 let g:multi_cursor_use_default_mapping=0
 
-let g:multi_cursor_next_key='<C-n>'
-let g:multi_cursor_prev_key='<C-g>'
+let g:multi_cursor_next_key='<C-z>'
+let g:multi_cursor_prev_key='<C-q>'
 let g:multi_cursor_skip_key='<C-x>'
 let g:multi_cursor_quit_key='<Esc>'
 
@@ -74,7 +117,7 @@ set wildignore+=*/node_modules/**
 let NERDTreeHijackNetrw = 0                                            "Prevents Nerd from killing the system"
 
 "--------------Visuals--------------------"
-colorscheme mango
+colorscheme distinguished
 set background=dark
 "set t_CO=256
 
@@ -91,14 +134,44 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
+"====================================================="
 "-------------Laravel Specific Commands---------------"
+"====================================================="
 
-nmap <leader>lr :e app/Http/routes.php<cr>
-
+nmap <leader><leader>r :e app/Http/routes.php<cr>
+nmap <leader><leader>m :!php artisan make:
+nmap <leader><leader>c :e app/Http/Controllers/<cr>
+nmap <leader><leader>p :e app/<cr>
+nmap <leader><leader>q :e app/Http/Requests<cr>
+nmap <leader><leader>v :e resources/views/<cr>
+nmap <leader><leader>a :e resources/assets/<cr>
+nmap <leader><leader>o :e config/<cr>
+nmap <leader><leader>e :e .env<cr>
+nmap <leader><leader>d :e database/<cr> 
+nmap <leader><leader>t :e tests/<cr>
 
 "-------------Auto Commands---------------"
 
+"============================================================================
+" Make :help appear in a full-screen tab, instead of a window
+"============================================================================
+
+augroup HelpInTabs
+    autocmd!
+    autocmd BufEnter  *.txt   call HelpInNewTab()
+augroup END
+
+function! HelpInNewTab ()
+    if &buftype == 'help'
+        "Convert the help window to a tab...
+        execute "normal \<C-W>T"
+    endif
+endfunction
+
+"========================================"
 "Automatically source vimrc file on save"
+"========================================"
+
 augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %
@@ -132,22 +205,21 @@ call vundle#begin()
 
 
 Plugin 'VundleVim/Vundle.vim'
-
+Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-vinegar'
-
 Plugin 'ctrlpvim/ctrlp.vim'
-
 Plugin 'crusoexia/vim-monokai'
-
-Plugin 'msanders/snipmate.vim'
-
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/snipmate.vim'
 Plugin 'tpope/vim-surround'
-
 Plugin 'StanAngeloff/php.vim'
-
 Plugin 'terryma/vim-multiple-cursors'
-
 Plugin 'arnaud-lb/vim-php-namespace'
+Plugin 'posva/vim-vue'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'mattn/emmet-vim'
+Plugin 'itchyny/lightline.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -3,4 +3,5 @@ alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset 
 #reload bashrc file
 alias brc='source ~/.bashrc'
 
+
 #edit bashrc

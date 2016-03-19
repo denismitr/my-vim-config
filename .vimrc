@@ -46,9 +46,6 @@ filetype plugin on
 
 call pathogen#infect()
 
-set regexpengine=1
-set ignorecase
-set smartcase
 
 syntax enable
 
@@ -68,8 +65,6 @@ set smarttab
 nmap <leader>ev :tabedit ~/.vimrc<cr>
 nmap <leader>es :tabedit ~/.vim/snippets/
 
-"Add simple highlite removal"
-nmap <leader><space> :nohlsearch<cr>
 
 "Add NERDTree highlight removal"
 nmap <leader>q :NERDTreeToggle<cr>
@@ -125,11 +120,17 @@ set background=dark
 
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
+set regexpengine=1
 
 
+"Add simple highlite removal"
+nmap <leader><space> :nohlsearch<cr>
 
 "-------------Autocomplete---------------------------"
 
+filetype plugin on
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -149,6 +150,9 @@ nmap <leader><leader>o :e config/<cr>
 nmap <leader><leader>e :e .env<cr>
 nmap <leader><leader>d :e database/<cr> 
 nmap <leader><leader>t :e tests/<cr>
+nmap <leader><leader>u :e public/<cr>
+nmap <leader><leader>h :e app/Http/<cr>
+nmap <leader><leader>x :e . <cr>
 
 "-------------Auto Commands---------------"
 
@@ -220,6 +224,7 @@ Plugin 'posva/vim-vue'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'mattn/emmet-vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'yearofmoo/Vim-Darkmate'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

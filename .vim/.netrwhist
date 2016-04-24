@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/c/xampp/htdocs/laravel/vera/resources/views'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/c/training/LoginModal/resources/views/layouts'
+let g:netrw_dirhist_2='/c/training/LoginModal/public'
+let g:netrw_dirhist_3='/c/training/LoginModal/public/js'
+let g:netrw_dirhist_4='/c/training/LoginModal/public'
+let g:netrw_dirhist_5='/c/training/LoginModal/public/css'
+let g:netrw_dirhist_6='/c/training/LoginModal/public'
+let g:netrw_dirhist_7='/c/training/LoginModal/resources/assets'
+let g:netrw_dirhist_8='/c/training/LoginModal/resources/assets/js'

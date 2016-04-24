@@ -35,7 +35,7 @@ set ruler
 set nocompatible              " be iMproved, required
 
 set t_Co=256
-set mouse=a
+set noerrorbells
 set cursorline
 set autowriteall
 set complete=.,w,b,u
@@ -48,17 +48,20 @@ call pathogen#infect()
 
 
 syntax enable
-
-set backspace=indent,eol,start			
-let mapleader = '\'			  
-set number     
+set mouse=a
+set backspace=indent,eol,start
+let mapleader = '\'
+set number
 
 "Tab and indent"
+"=========================================================
 set shiftwidth=4
 set expandtab
 set smartindent
 set tabstop=4
 set smarttab
+"new
+set shiftround
 
 "--------------Mapping--------------------"
 
@@ -80,6 +83,8 @@ nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
 
+"Window resize mapping"
+
 "Tabs switches"
 nmap tn :tabnew<space>
 nmap tk :tabnext<cr>
@@ -87,8 +92,18 @@ nmap tj :tabprev<cr>
 nmap th :tabfirst<cr>
 nmap tl :tablast<cr>
 
+"====== CtrlP ==============="
 nmap <C-y> :CtrlPBufTag<cr>
 nmap <C-e> :CtrlPMRUFiles<cr>
+let g:ctrlp_map = '<c-F1>'
+nmap <leader>w :CtrlP<cr>
+
+let g:ctrlp_custom_ignore = 'node_modules\|vendor\|git'
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
+set wildignore+=*/vendor/**
+set wildignore+=*/node_modules/**
+
+let NERDTreeHijackNetrw = 0                                            "Prevents Nerd from killing the system"
 
 "Other mappings"
 nmap <C-s> :w<cr>
@@ -100,21 +115,29 @@ let g:multi_cursor_use_default_mapping=0
 
 let g:multi_cursor_next_key='<C-z>'
 let g:multi_cursor_prev_key='<C-q>'
-let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_skip_key='<C-a>'
 let g:multi_cursor_quit_key='<Esc>'
 
-
-let g:ctrlp_custom_ignore = 'node_modules\|vendor\|git'
-let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
-set wildignore+=*/vendor/**
-set wildignore+=*/node_modules/**
-
-let NERDTreeHijackNetrw = 0                                            "Prevents Nerd from killing the system"
+"=========================================
+"---------- Comments ---------------------
+"=========================================
+autocmd FileType apache setlocal commentstring=#\ %s
 
 "--------------Visuals--------------------"
-colorscheme distinguished
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=blue guibg=red
+au InsertLeave * match ExtraWhitespace /\s\+$/
 set background=dark
-"set t_CO=256
+set t_CO=256
+colorscheme distinguished
+
+
+"------------- Useful settings -----------"
+
+set history=700
+set undolevels=700
+
+vnoremap < <gv " better indentation
+vnoremap > >gv " better indentation
 
 "-------------Search---------------------"
 
@@ -135,22 +158,36 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
+
+
+"============ Auto PSR-2 Formatting =================="
+let g:php_cs_fixer_level = "psr2"
+nnoremap <silent><leader>ff :call PhpCsFixerFixFile()<CR>
+
+"====================================================="
+"------------Laravel Specific Console Commands--------"
+"====================================================="
+
+nmap <silent><leader>mm :!php artisan make:
+
 "====================================================="
 "-------------Laravel Specific Commands---------------"
 "====================================================="
 
 nmap <leader><leader>r :e app/Http/routes.php<cr>
-nmap <leader><leader>m :!php artisan make:
 nmap <leader><leader>c :e app/Http/Controllers/<cr>
+nmap <leader><leader>m :e app/Http/Middleware/<cr>
 nmap <leader><leader>p :e app/<cr>
 nmap <leader><leader>q :e app/Http/Requests<cr>
 nmap <leader><leader>v :e resources/views/<cr>
 nmap <leader><leader>a :e resources/assets/<cr>
 nmap <leader><leader>o :e config/<cr>
 nmap <leader><leader>e :e .env<cr>
+nmap <leader><leader>g :e gulpfile.js<cr>
 nmap <leader><leader>d :e database/<cr> 
 nmap <leader><leader>t :e tests/<cr>
 nmap <leader><leader>u :e public/<cr>
+nmap <leader><leader>uu :e public_html/<cr>
 nmap <leader><leader>h :e app/Http/<cr>
 nmap <leader><leader>x :e . <cr>
 
@@ -225,6 +262,8 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'mattn/emmet-vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'yearofmoo/Vim-Darkmate'
+Plugin 'stephpy/vim-php-cs-fixer'
+Plugin 'hynek/vim-python-pep8-indent'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

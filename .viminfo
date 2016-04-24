@@ -8,10 +8,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/prepareTheParent
+~MSle0~/login-mo
 
 # Last Substitute Search Pattern:
-~MSle0&prepareTheParent
+~MSle0&email
 
 # Last Substitute String:
 $
@@ -19,2315 +19,824 @@ $
 # Command Line History (newest to oldest):
 :q
 :w
-:%s/prepareTheParent/prepareTheWrapper/
-:38,67s/$imageHolder/$imageWrapper/
-:%s/bringImageToNormal/animateBackwards/
-:%s/moveImageToBackground/startAnimating/
+:e LICENSE.txt
+:tabedit ~/.vim/snippets/txt.snippets
+:e README.md
 :bd
-:tabedit ~/.vim/snippets/less.snippets
-:!gulp
-:!gulp[
-:!php artisan tinker
-:!php artisan db:seed
-:!php artisan migrate
-:!php artisan make:seeder PostSeeder
-:!php artisan make:
-:!php artisan make:model Post -m
-:earlier 1m
-:e .
-:!
-:e /
-:tabedit ~/.vim/snippets/css.snippets
-:24,26s/"name"/"subject"/
-:24,26s/name/subject/
-:24,25s/name/subject/
+:e src/is.js
+::w
+:w!
+:q!
+:e src/assert.js
+:we
+:e resources/views/layouts/master.blade.php
 :W
-:wa
+:e main.js
+:e commons.js
+:%s/email/tower_b_tel_2/g
+:e resources/views/admin/contacts.blade.php
+:%s/tel/tower_b_tel_1/g
+:%s/position/tower_a_tel_2/g
+:%s/name/tower_a_tel_1/g
+:e resources/views/admin/partials/contactform.blade.php
+:%s/manager/contact/g
+:%s/administrator/manager/g
+:e resources/views/pages/partials/mangers_table.blade.php
+:%s/manager/administrator/g
+:%s/manager/administrator/
+:e resources/views/admin/partials/administrators_table.blade.php
+:e resources/views/admin/partials/administratorform.blade.php
+:e resources/views/admin/partials/administratorform.blade.php!
+:e resources/views/admin/partials/administratorform/blade.php
+:e resources/views/admin/editadministrator.blade.php
+:e resources/views/admin/newadministrator.blade.php
+:73,88s/manager/administrator/g
+:55,71s/manager/administrator/g
+:38,52s/manager/administrator/g
+:e resources/assets/js/components/GraphParent.js
+:e resources/assets/js/components/GraphRevenue.js
+:e resources/views/custom.blade.php
 :Q
-:%s/help-block/help__Block/
-:%s/has-error/has__Error/
-:%s/form-group/input__Group/
-:tabedit ~/.vim/snippets/css
-:tabedit ~/.vim/snippets/html.snippets
-:bn
-:bp
-:tabedit ~/.vim/snippets/php.snippets
+:!php artisan make:
+:%s/response.data/data/g
+:e resources/views/api.blade.php
+:e src/RussianCache.php
+:!composer dump-autoload
+:e composer.json
+:e tests/MailTracking.php
+:!php artisan tinker
+:!php artisan migrate
+:.!
 :!touch database/database.sqlite
-:%s/info-box/info__Box/
-:%s/input-group/input__Group/
-:%s/form-control/form__Control/
-:s%/form-control/form__Control/
-:tabedit ~/.vim/snippets/ph
-:%s/form-group/input-group/
-:s/form-group/input-group/
+:%s/user/this->user/g
+:%s/thist/this/g
+:<Plug>(multiple-cursors-apply)<Plug>(multiple-cursors-detect)q
+:tabedit ~/.vim/snippets/html.snippets
+:q1
+:Q!
+:e
+:e timers.js
+:e app/Likeablity.php
+:tabedit ~/.vim/snippets/php.snippets
+:tabedit ~/.vim/snippets/javascript.snippets
+:80,87s/$user/$users/g
+:80,87s/$user/$users/
 :colo distinguished
-:colo monokain
-:colo Monokai
+:colo disciple
 :colo molokai
-:.$!
-:w'
-:tabnew
+:colo monokai
+:colo Monokai
+:colo atom-dark-256
+:e m
+:!touch database/testing.sqlite
+:e resources/views/backend/lections/create.blade.php
+:e resources/assets/js/lectures.js
+:!python main.py
+:e main.py
+:!python.exe
+:%s/\$order/\$this->order/
+:s/\$order/\$this->order/g
+:e app/Order.php
+:e app/Product.php
+:!pu
+:!vendor/bin/phpunit
+:!phpunit
+:e js/app.js
+:!npm install vue vue-resource bootstrap --save
+:!nmp install vue vue-resource bootstrap --save
+:e index.html
+:!gulp
+:e resources/assets/js/components/Graph2.js
+:e resources/assets/js/components/Graph.js
+:e resources/assets/js/revenue.js
+:!php artisan db:seed
+:!php artisan migrate:refresh
+:!php artisan make:seeder PerformanceSeeder
+:!php artisan make:seeder PreformanceSeeder
+:!php artisan make:model Performance -m
+:'<,'>q
+:!python.exe game.py
+:!python game.py
+:e game.py
+:e app/Emails/CancelationEmail.php
+:e app/Emails/Emails.php
+:e resources/assets/js/components/github-file-explorer/index.js
+:e resources/assets/js/github.js
+:!npm install vue --save
+:npm install vue --save
+:e resources/views/orders/list.blade.php
+:e resources/views/cart.blade.php
+:%s/isnb/isbn/
+:%s/isbn/isbn/
+:%s/isbs/isbn/
+:%s/isbs/isnb/
+:!mv AuthorsTableSeeder.php database/seeds/
+:e AuthorsTableSeeder.php
+:!touch index2.html
+:tabnew js/main.js
+:colo wombat256
+:colo wombat256mod
+:PluginInstall
+:colo dist
+:colo pyte
+:colo python
+:!node taskRepo.js
+:e taskRepo.js
+:!node main.js
+:!php artisan make:model Adjustment -m
+:!touch storage/database.sqlite
+:e Coords.txt
+:e subObject.js
+:e repoFactory.js
+:! mkdir Factory
+:mkdir Factory
+:31,38s/player/opponent/
+:e resources/assets/js/main2.js
+:e taskRepository.js
+:e class.js
+:e task.js
+:e public/.htaccess
+:!go run main.go
+:%s/rubric/exhibition/
+:%s/painting/exhibition
+:tabedit ~/.vim/snippets
+::q
+:!composer update
+:tag 
+:!composer require illuminate/support
+:!ctags-laravel
+:e .bash_profile
+:colo 0x7A6
+:colo Sunburst
 
 # Search String History (newest to oldest):
-? \$\(cursor\|select\)\$
+? \Vjquery\%#
+?/login-mo
 ? @$
+? \$\(cursor\|select\)\$
+? \Vblade\%#
+? \Vfil\%#
+? email
+? tel
+? position
+? name
+? \Vrg\%#
+? manager
+? \Vtabstr\%#
+? administrator
+? \Vcnl\%#
+? \V$t\%#
+? \Vmet\%#
+? response.data
+?/reponse
+? \Vmetp\%#
+? \Vpfc\%#
+? \Vclass\%#
+? \V@test\%#
+? \Vbgc\%#
+? \Vfz\%#
+? \Vh\%#
+? \Vw\%#
+? \Vbootstrap\%#
+?/mayb
+? \Vmets\%#
+?/user
+? user
+? thist
+?/mult
+?/multipn
+? \Vtabint\%#
+? \Vtabtext\%#
+? $user
+?/articles
+? \$order
+? \Vscript\%#
+?/class
+? \Vlsec\%#
+??\a
+?/indent
+?/indentn
+? isnb
+? isbn
+? isbs
+? \Viife\%#
+?/Waypoints
+?/atom
+?/colo
+?/notify
+? player
+? \Vmetps\%#
+?/$this
+?/$thid
+?/sudly
+?/cursor
+?/curso
+? rubric
+? painting
+?/i<?
+? \Vinputtext\%#
+?/dis
+? \Vinputfile\%#
+? \Vinputsubmit\%#
+?/text
+?/ctr
+?/ctrlp
+?/ctrl
+?/ctrl/
+?/sctrip
+? \Vhtml\%#
+? \<public\>
+? \<resource\>
+?/this
+?/mouse
 ? prepareTheParent
 ? $imageHolder
-? \Vcnl\%#
 ? bringImageToNormal
 ? moveImageToBackground
-? \Viife\%#
-? \Vh\%#
 ? \Vta\%#
 ? \Vc\%#
 ? \Vp\%#
-? \Vmet\%#
-? \Vrg\%#
 ? "name"
-? name
-?/tha
-?/cons
-?/debtors
-? help-block
-? has-error
-? form-group
-? \Vcontactform\%#
-? \Vblade\%#
-? \Vtransition\%#
-? \Vmp0\%#
-? \Vbrd\%#
-? \Vbgc\%#
-? \Vfz\%#
-? \Vbd\%#
-? \Vm\%#
-? \V!i\%#
-? \Vfll\%#
-? \V$t\%#
-? info-box
-? \Verrorcount\%#
-? input-group
-? form-control
-? /form-control/form__Control/
-? \Vinputtext\%#
-?/blade
-?/search
-? \Vhtml\%#
-? \Vjquery\%#
-?/sma
-?/dfsdgs
-? \Vclass\%#
-? \<js\>
-? \Vpfc\%#
-? \Vbootstrap\%#
 
 # Expression History (newest to oldest):
 ============================================================================
 
 # Input Line History (newest to oldest):
-@div
-@a[href=#]
-@jquery.imageZoom.js
+@fuck.blade.php
+@/c/xampp/htdocs/laravel/Tsj32/resources/views/pages/partials/managers_table.blade.php
+@/c/xampp/htdocs/laravel/Tsj32/resources/views/pages/partials/administrators_table.blade.php
 @[{y(es)},n(o),a(ll),q(uit)] y
-@rubrics.less
-@section.Rubrica
-@art.less
-@resource.blade.php
-@resource.js
-@app-directives.js
-@directives.blade.php
-@app-messages.js
-@messages.blade.php
-@Alert.vue
-@components
+@Administrator.php
+@em
+@div
+@api-custom-revenue.js
+@GraphApi.js
+@api-revenue.js
 @main.js
 @js
-@app.less
-@alerts.less
-@less
-@alerts.blade.php
-@footer.less
-@div.Form__group
-@footer.blade.php
-@exercise.css
+@style.css
 @css
-@app-exercise.js
-@exercise.blade.php
-@create_post.blade.php
-@blog
-@admin.css
-@categories.css
-@modal.css
+@singleton.js
+@functions.php
+@helpers
+@/c/training/UnitTest/app/Likeability.php
+@div.col-xs-12
+@div.row
+@lecture.less
+@div.Lecture--Info
+@/c/xampp/htdocs/laravel/Vera/resources/views/frontend/lectures.blade.php
+@Lecture.vue
+@components
+@ArticleTest.php
+@models
+@integration
+@OrderTest.php
+@ProductTest.php
+@unit
+@acceptance
+@div#events.container
+@revenue.blade.php
+@/c/training/Charts/database/seeds/PerformanceSeeder.php
+@WelcomeEmail.php
+@Emails
+@template.html
+@github-file-explorer
+@main.blade.php
+@github
+@Post.vue
 @index.blade.php
-@admin
-@admin-header.blade.php
-@admin.blade.php
-@main.css
-@form.css
-@common.css
-@contact.css
-@info-box.blade.php
-@contact.blade.php
-@about.blade.php
-@other
 @master.blade.php
 @layouts
-@single.blade.php
+@posts
+@orders
+@section
+@header>div.container
+@pre
+@books
+@layout.blade.php
+@/c/Code/BookStore/database/seeds/AuthorsSeeder.php
+@sapn
+@section#Todos
+@p
+@task.js
+@Mediator
+@QueryFilter.php
+@LessonFilters.php
+@div>p
+@document.blade.php
+@main2.js
+@FlyWeight
+@Facade
+@Coords.py
+@Decorator
+@Singleton
+@SuperGraph.js
+@WinsGraph.js
+@wins.blade.php
+@/c/xampp/htdocs/test/MVC/logs
 @log
-@header.blade.php
+@Error.php
+@Config.php
+@Model.php
+@/c/xampp/htdocs/test/MVC/App/Models/Post.php
+@h2
+@Posts.php
+@index.php
+@Home
+@View.php
+@Users.php
+@Admin
+@Controller.php
+@Router.php
+@PhotosPostForm.php
+@ExhibitionsPostForm.php
+@ExhibitionPresenter.php
+@/c/xampp/htdocs/laravel/Vera/resources/views/layouts/auth.blade.php
+@Graph.js
+@/c/training/Charts/resources/views/test.blade.php
+@test
+@AddPhotoToFlyerTest.php
+@sweetalert-dev.js
+@lity.js
+@libs
+@forms.scss
+@partials
+@Country.php
+@Utilities
 
 # Input Line History (newest to oldest):
 
 # Registers:
 "0	LINE	0
-	                                <img src="{{ asset('img/afisha3.jpg') }}" alt="Афиша">
-""1	LINE	0
-	        
-"2	LINE	0
-	        console.log('Background: ', that.$imageWrapper.css('backgroundImage'));
-"3	LINE	0
-	            width: that.$image.width(),
-"4	LINE	0
-	            width: that.$image.width(),
-"5	LINE	0
-	                                <img src="{{ asset('img/afisha3.jpg') }}" alt="Афиша">
-"6	LINE	0
-	                                <img src="{{ asset('img/afisha1.jpg') }}" alt="Афиша">
-"7	LINE	0
-	../
-"8	LINE	0
-	./
-"9	LINE	0
+		The MIT License (MIT)
 	
+		Copyright (c) ${1:2016} ${2:Denis Mitrofanov <denis.mitr@gmail.com>}
+	
+		Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+		documentation files (the "Software"), to deal in the Software without restriction, including without limitation the 
+		rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit 
+		persons to whom the Software is furnished to do so, subject to the following conditions:
+	
+		The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+	
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+		TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS 
+		OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+		OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+""1	LINE	0
+	
+"2	LINE	0
+	    is.empty(p) // true
+"3	LINE	0
+	
+	
+	
+"4	LINE	0
+	    
+"5	LINE	0
+	    publicAPI._jqueryObject = function(value) {
+	        if (scope.jQuery && value instanceof scope.jQuery) {
+	            return true;
+	        }
+	
+	        return false;
+	    }
+"6	LINE	0
+	    
+"7	LINE	0
+	
+"8	LINE	0
+	    Auth::logout();
+"9	LINE	0
+	    return 
 "q	CHAR	0
 	�kd
+"w	CHAR	0
+	ww
 "-	CHAR	0
-	padding-box
+	isNumeric
 
 # File marks:
-'0  53  7  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
-'1  25  37  /c/training/learingVue/resources/assets/js/resource.js
-'2  1  0  app/Http/Controllers/
-'3  37  53  /c/training/learingVue/public/js/app-directives.js
-'4  31  55  /c/training/learingVue/resources/views/alerts.blade.php
-'5  30  8  /c/training/learingVue/resources/assets/js/components/Alert.vue
-'6  1  0  /
+'0  18  12  /c/Code/Repos/is/README.md
+'1  9  28  /c/Code/Repos/is/README.md
+'2  95  4  /c/Code/Repos/is/src/is.js
+'3  34  0  /c/Code/Repos/is/src/is.js
+'4  97  0  /c/Code/Repos/is/src/is.js
+'5  6  133  /c/Code/Repos/AssertJs/src/assert.js
+'6  1  34  /c/Code/Repos/301Redirect/README.md
+'7  124  33  /c/training/LoginModal/resources/assets/js/main.js
+'8  61  14  /c/training/js/Advanced/2/main.js
+'9  1  0  /c/training/js/Advanced/1/commons.js
 
 # Jumplist (newest first):
--'  53  7  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  50  43  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  52  37  /c/xampp/htdocs/laravel/vera/resources/assets/js/app.js
--'  135  32  /c/xampp/htdocs/laravel/vera/resources/views/frontend/exhibitions.blade.php
--'  48  37  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  31  32  /c/xampp/htdocs/laravel/vera/resources/views/frontend/exhibitions.blade.php
--'  53  4  /c/xampp/htdocs/laravel/vera/resources/assets/js/app.js
--'  1  0  /c/xampp/htdocs/laravel/vera/resources/views
--'  83  32  /c/xampp/htdocs/laravel/vera/resources/views/frontend/exhibitions.blade.php
--'  169  49  /c/xampp/htdocs/laravel/vera/resources/views/frontend/exhibitions.blade.php
--'  12  0  /c/xampp/htdocs/laravel/vera/resources/views
--'  91  58  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  90  161  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  67  163  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  47  35  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  17  0  /c/xampp/htdocs/laravel/vera/resources/views
--'  119  27  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  1  0  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  120  25  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  45  156  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  25  134  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  1  25  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  22  0  /c/xampp/htdocs/laravel/vera/resources/views
--'  38  0  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  43  98  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  51  0  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  82  27  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  31  38  /c/xampp/htdocs/laravel/vera/resources/assets/js/app.js
--'  25  31  /c/xampp/htdocs/laravel/vera/resources/assets/js/app.js
--'  1  0  /c/xampp/htdocs/laravel/vera/resources/assets
--'  2  0  /c/xampp/htdocs/laravel/vera/resources/assets/less
--'  27  0  /c/xampp/htdocs/laravel/vera/resources/views
--'  1  0  /c/xampp/htdocs/laravel/vera/app/Http/Controllers
--'  15  34  /c/xampp/htdocs/laravel/vera/gulpfile.js
--'  1  0  /c/xampp/htdocs/laravel/vera/gulpfile.js
--'  1  0  /c/xampp/htdocs/laravel/Vera
--'  133  5  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  90  4  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  9  47  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  6  9  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
--'  4  0  /c/xampp/htdocs/laravel/vera/resources/assets/js/libs
--'  104  18  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  75  17  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  30  10  /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
--'  21  28  /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
--'  55  0  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  103  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  102  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  70  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  4  0  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  59  12  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  66  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  68  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  99  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  67  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
--'  75  96  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  96  93  /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
--'  1  0  /c/xampp/htdocs/laravel/vera/resources/assets/less/art-menu.less
--'  5  14  /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
--'  6  19  /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
--'  22  0  /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
--'  10  19  /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
+-'  18  12  /c/Code/Repos/is/README.md
+-'  9  28  /c/Code/Repos/is/README.md
+-'  1  0  /c/Code/Repos/is/README.md
+-'  95  4  /c/Code/Repos/is/src/is.js
+-'  6  92  /c/Code/Repos/is/index.html
+-'  5  9  /c/Code/Repos/is/index.html
+-'  71  47  /c/Code/Repos/is/src/is.js
+-'  85  0  /c/Code/Repos/is/src/is.js
+-'  82  0  /c/Code/Repos/is/src/is.js
+-'  77  0  /c/Code/Repos/is/src/is.js
+-'  68  0  /c/Code/Repos/is/src/is.js
+-'  62  0  /c/Code/Repos/is/src/is.js
+-'  43  0  /c/Code/Repos/is/src/is.js
+-'  38  0  /c/Code/Repos/is/src/is.js
+-'  33  0  /c/Code/Repos/is/src/is.js
+-'  22  0  /c/Code/Repos/is/src/is.js
+-'  19  0  /c/Code/Repos/is/src/is.js
+-'  15  32  /c/Code/Repos/is/src/is.js
+-'  6  77  /c/Code/Repos/is/src/is.js
+-'  9  0  /c/Code/Repos/is/src/is.js
+-'  34  0  /c/Code/Repos/is/src/is.js
+-'  97  0  /c/Code/Repos/is/src/is.js
+-'  6  133  /c/Code/Repos/AssertJs/src/assert.js
+-'  1  0  /c/Code/Repos/AssertJs/src/assert.js
+-'  1  34  /c/Code/Repos/301Redirect/README.md
+-'  124  33  /c/training/LoginModal/resources/assets/js/main.js
+-'  15  51  /c/training/LoginModal/app/Http/routes.php
+-'  1  4  /c/training/LoginModal/app/Http/routes.php
+-'  122  33  /c/training/LoginModal/resources/assets/js/main.js
+-'  26  43  /c/training/LoginModal/app/Http/routes.php
+-'  123  37  /c/training/LoginModal/resources/assets/js/main.js
+-'  10  48  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  39  15  /c/training/LoginModal/resources/assets/js/main.js
+-'  1  25  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  59  21  /c/training/LoginModal/resources/assets/js/main.js
+-'  1  21  /c/training/LoginModal/resources/assets/js/main.js
+-'  2  0  /c/training/LoginModal/resources/assets
+-'  1  0  /c/training/LoginModal/resources/assets
+-'  17  33  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  37  6  /c/training/LoginModal/resources/views/layouts/master.blade.php
+-'  7  0  /c/training/LoginModal/resources/views/layouts/master.blade.php
+-'  1  0  /c/training/LoginModal/public
+-'  1  0  /c/training/LoginModal/public/css
+-'  1  0  /c/training/LoginModal/public/css/style.css
+-'  1  0  /c/training/LoginModal/public/js
+-'  1  0  /c/training/LoginModal/public/js/main.js
+-'  7  20  /c/training/LoginModal/app/Http/routes.php
+-'  35  38  /c/training/LoginModal/resources/views/layouts/master.blade.php
+-'  1  0  /c/training/LoginModal/resources/views/layouts/app.blade.php
+-'  82  0  /c/training/LoginModal/resources/views/layouts/app.blade.php
+-'  3  0  /c/training/LoginModal/resources/views
+-'  1  0  /c/training/LoginModal/resources/views
+-'  15  13  /c/training/LoginModal/gulpfile.js
+-'  44  2  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  12  0  /c/training/LoginModal/resources/views
+-'  12  9  /c/training/LoginModal/resources/views/welcome.blade.php
+-'  11  9  /c/training/LoginModal/resources/views/welcome.blade.php
+-'  4  0  /c/training/LoginModal/resources/assets
+-'  1  0  /c/training/LoginModal/resources
+-'  19  0  /c/training/LoginModal/resources/views
+-'  7  0  /c/training/LoginModal
+-'  1  0  /c/training/LoginModal
+-'  5  0  /c/training/LoginModal/app/Http/routes.php
+-'  79  39  /c/training/LoginModal/resources/assets/js/main.js
+-'  1  0  /c/training/LoginModal/resources/assets/css
+-'  43  9  /c/training/LoginModal
+-'  7  29  /c/training/LoginModal/package.json
+-'  4  0  /c/training/LoginModal/database
+-'  67  0  /c/training/LoginModal
+-'  3  0  /c/training/LoginModal/storage
+-'  92  0  /c/training/LoginModal
+-'  111  0  /c/training/LoginModal
+-'  1  0  /c/training/LoginModal/resources/views/errors
+-'  133  0  /c/training/LoginModal
+-'  52  26  /c/training/LoginModal/config/database.php
+-'  51  57  /c/training/LoginModal/config/database.php
+-'  124  33  /c/training/LoginModal/resources/assets/js/main.js
+-'  15  51  /c/training/LoginModal/app/Http/routes.php
+-'  1  4  /c/training/LoginModal/app/Http/routes.php
+-'  122  33  /c/training/LoginModal/resources/assets/js/main.js
+-'  26  43  /c/training/LoginModal/app/Http/routes.php
+-'  123  37  /c/training/LoginModal/resources/assets/js/main.js
+-'  10  48  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  39  15  /c/training/LoginModal/resources/assets/js/main.js
+-'  1  25  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  59  21  /c/training/LoginModal/resources/assets/js/main.js
+-'  1  21  /c/training/LoginModal/resources/assets/js/main.js
+-'  2  0  /c/training/LoginModal/resources/assets
+-'  1  0  /c/training/LoginModal/resources/assets
+-'  17  33  /c/training/LoginModal/resources/views/fuck.blade.php
+-'  37  6  /c/training/LoginModal/resources/views/layouts/master.blade.php
+-'  7  0  /c/training/LoginModal/resources/views/layouts/master.blade.php
+-'  1  0  /c/training/LoginModal/public
+-'  1  0  /c/training/LoginModal/public/css
+-'  1  0  /c/training/LoginModal/public/css/style.css
+-'  1  0  /c/training/LoginModal/public/js
+-'  95  4  /c/Code/Repos/is/src/is.js
+-'  6  92  /c/Code/Repos/is/index.html
 
 # History of marks within files (newest to oldest):
 
-> /c/xampp/htdocs/laravel/vera/app/Http/routes.php
-	"	9	72
-	^	9	73
-	.	9	72
-	+	9	72
-
-> /c/xampp/htdocs/laravel/vera/app/Http/Controllers/PagesController.php
-	"	26	35
-	^	26	36
-	.	26	35
-	+	24	0
-	+	26	35
-
-> /c/xampp/htdocs/laravel/vera/resources/views/frontend/art.blade.php
-	"	91	58
-	^	91	59
-	.	92	35
-	+	3	71
-	+	7	22
-	+	11	19
-	+	109	0
-	+	110	39
-	+	14	59
-	+	16	33
-	+	110	33
+> /c/Code/Repos/is/README.md
+	"	18	12
+	^	18	13
+	.	17	12
+	+	7	8
+	+	17	56
+	+	13	0
 	+	18	0
-	+	108	42
-	+	108	19
-	+	108	0
-	+	108	0
-	+	108	59
-	+	108	59
-	+	108	59
-	+	108	59
-	+	108	91
-	+	108	72
-	+	108	74
-	+	108	78
-	+	108	30
-	+	108	35
-	+	108	39
-	+	108	2
-	+	108	19
-	+	108	0
-	+	16	0
-	+	108	0
-	+	108	0
-	+	108	0
-	+	108	64
-	+	108	59
-	+	108	0
-	+	108	47
-	+	108	65
-	+	108	59
-	+	108	0
-	+	108	65
-	+	108	0
-	+	108	0
-	+	108	0
-	+	18	0
-	+	108	25
-	+	20	0
-	+	22	0
-	+	40	36
-	+	61	35
-	+	39	40
-	+	60	39
-	+	22	50
-	+	39	27
-	+	39	121
-	+	39	27
-	+	39	100
-	+	39	0
-	+	39	93
-	+	39	49
-	+	39	0
-	+	39	0
-	+	39	0
-	+	39	0
-	+	39	0
-	+	38	0
-	+	24	107
-	+	23	51
-	+	28	51
-	+	30	65
-	+	23	49
-	+	28	49
-	+	43	0
+	+	15	0
+	+	14	25
+	+	16	74
+	+	22	25
+	+	36	0
+	+	35	21
+	+	9	43
+	+	16	6
+	+	17	12
+
+> ~/.vim/snippets/txt.snippets
+	"	2	0
+
+> /c/Code/Repos/is/ControlP
+	"	1	0
+	.	2	0
+	+	89	0
 	+	60	0
-	+	51	95
-	+	45	92
-	+	109	0
-	+	63	0
-	+	107	0
-	+	16	30
-	+	96	91
-	+	75	89
-	+	67	99
-	+	90	98
-	+	25	39
-	+	25	75
-	+	25	48
-	+	25	40
-	+	26	35
-	+	45	0
-	+	45	67
-	+	46	39
-	+	47	35
-	+	67	79
-	+	69	39
-	+	71	35
-	+	68	39
-	+	69	43
-	+	70	39
-	+	90	67
-	+	91	39
-	+	92	35
-
-> /c/xampp/htdocs/laravel/vera/resources/views/frontend/exhibitions.blade.php
-	"	135	32
-	^	133	0
-	.	135	0
-	+	24	43
-	+	65	51
-	+	76	42
-	+	117	51
-	+	128	43
-	+	169	50
-	+	83	0
-	+	83	0
 	+	31	0
-	+	135	0
+	+	2	0
 
-> /c/xampp/htdocs/laravel/vera/resources/views/frontend/home.blade.php
-	"	75	38
-	^	75	39
-	.	75	38
-	+	81	66
-	+	99	66
-	+	75	38
+> /c/Code/Repos/is/src/is.js
+	"	95	4
+	^	6	66
+	.	95	0
+	+	92	20
+	+	93	5
+	+	84	5
+	+	86	0
+	+	63	0
+	+	44	0
+	+	39	0
+	+	34	0
+	+	20	0
+	+	23	0
+	+	95	0
+	+	95	0
+	+	1	0
+	+	6	77
+	+	95	0
+	+	95	47
+	+	95	21
+	+	95	0
+	+	6	91
+	+	1	0
+	+	95	0
+	+	55	0
+	+	50	0
+	+	61	5
+	+	54	0
+	+	52	0
+	+	50	0
+	+	49	0
+	+	52	5
+	+	6	65
+	+	95	0
 
-> /c/xampp/htdocs/laravel/vera/ControlP
+> /c/Code/Repos/is/index.html
+	"	6	92
+	^	6	93
+	.	7	0
+	+	7	0
+	+	6	0
+	+	7	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	1	0
+
+> /c/Code/Repos/AssertJs/src/assert.js
+	"	6	133
+	^	6	134
+	.	6	133
+	+	6	133
+
+> /c/Code/Repos/301Redirect/README.md
+	"	1	34
+	^	1	35
+	.	1	34
+	+	1	34
+
+> /c/training/LoginModal/config/database.php
+	"	52	26
+	^	51	58
+	.	51	58
+	+	51	58
+
+> /c/training/LoginModal/package.json
+	"	7	29
+	^	7	30
+	.	7	30
+	+	8	0
+	+	7	30
+
+> /c/training/LoginModal/resources/assets/js/main.js
+	"	124	33
+	^	122	34
+	.	122	33
+	+	1	21
+	+	31	2
+	+	30	0
+	+	30	42
+	+	30	12
+	+	30	30
+	+	8	3
+	+	30	0
+	+	30	48
+	+	30	0
+	+	30	0
+	+	30	0
+	+	7	0
+	+	30	0
+	+	72	0
+	+	72	53
+	+	128	2
+	+	72	0
+	+	69	38
+	+	71	12
+	+	70	0
+	+	69	26
+	+	91	0
+	+	75	30
+	+	91	0
+	+	80	64
+	+	82	60
+	+	83	67
+	+	86	0
+	+	63	5
+	+	65	0
+	+	65	0
+	+	66	0
+	+	66	70
+	+	66	32
+	+	66	29
+	+	83	45
+	+	35	32
+	+	51	27
+	+	62	24
+	+	77	0
+	+	77	39
+	+	79	22
+	+	126	0
+	+	105	67
+	+	105	0
+	+	118	0
+	+	118	0
+	+	90	39
+	+	91	0
+	+	45	19
+	+	97	0
+	+	96	37
+	+	121	23
+	+	66	29
+	+	66	32
+	+	66	27
+	+	66	15
+	+	66	28
+	+	66	0
+	+	66	0
+	+	66	0
+	+	14	0
+	+	30	0
+	+	6	94
+	+	108	29
+	+	125	14
+	+	123	17
+	+	124	28
+	+	96	20
+	+	121	16
+	+	124	20
+	+	122	33
+
+> /c/training/LoginModal/app/Http/routes.php
+	"	15	51
+	^	15	52
+	.	15	51
+	+	5	0
+	+	7	20
+	+	10	38
+	+	22	2
+	+	21	55
+	+	15	36
+	+	3	0
+	+	17	25
+	+	19	0
+	+	18	32
+	+	15	36
+	+	21	65
+	+	12	0
+	+	18	58
+	+	15	51
+	z	15	7
+
+> /c/training/LoginModal/resources/views/welcome.blade.php
+	"	12	9
+	^	47	138
+	.	47	134
+	+	10	0
+	+	8	60
+	+	8	0
+	+	7	0
+	+	8	0
+	+	54	40
+	+	8	55
+	+	52	0
+	+	52	0
+	+	52	15
+	+	52	0
+	+	12	0
+	+	13	29
+	+	14	26
+	+	13	73
+	+	14	64
+	+	17	71
+	+	53	0
+	+	54	0
+	+	51	7
+	+	18	36
+	+	50	11
+	+	19	0
+	+	20	51
+	+	21	55
+	+	20	57
+	+	21	64
+	+	20	67
+	+	23	0
+	+	24	62
+	+	35	0
+	+	45	0
+	+	33	15
+	+	33	0
+	+	25	68
+	+	26	0
+	+	33	0
+	+	26	132
+	+	33	0
+	+	27	0
+	+	28	0
+	+	27	94
+	+	27	0
+	+	27	95
+	+	28	0
+	+	27	116
+	+	28	83
+	+	29	0
+	+	33	0
+	+	29	119
+	+	33	0
+	+	30	39
+	+	31	63
+	+	32	19
+	+	31	90
+	+	34	0
+	+	43	15
+	+	36	92
+	+	36	64
+	+	37	56
+	+	38	80
+	+	39	91
+	+	40	39
+	+	41	61
+	+	42	19
+	+	41	67
+	+	44	0
+	+	49	15
+	+	46	67
+	+	47	0
+	+	49	0
+	+	48	133
+	+	47	134
+
+> /c/training/LoginModal/resources/views/layouts/app.blade.php
+	"	1	0
+
+> /c/training/LoginModal/ControlP
 	"	2	0
 	.	2	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1224	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
+	+	1249	0
+	+	1220	0
 	+	1191	0
 	+	1162	0
 	+	1133	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1107	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1053	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1012	0
-	+	983	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	954	0
-	+	925	0
-	+	896	0
-	+	867	0
-	+	838	0
-	+	809	0
-	+	780	0
-	+	751	0
-	+	722	0
-	+	693	0
-	+	664	0
-	+	635	0
-	+	606	0
-	+	577	0
-	+	548	0
-	+	519	0
-	+	490	0
-	+	461	0
-	+	432	0
-	+	403	0
-	+	374	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	350	0
-	+	321	0
-	+	292	0
-	+	263	0
-	+	234	0
-	+	205	0
-	+	176	0
-	+	147	0
-	+	118	0
-	+	89	0
-	+	60	0
-	+	31	0
-	+	2	0
-
-> /c/xampp/htdocs/laravel/vera/resources/views/partials/header.blade.php
-	"	34	58
-	^	34	59
-	.	34	58
-	+	34	58
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/less/art-menu.less
-	"	1	0
-	.	39	0
-	+	39	0
-	+	39	0
-	+	39	23
-	+	39	0
-	+	39	0
-	+	39	43
-	+	39	20
-	+	39	47
-	+	39	12
-	+	39	24
-	+	39	0
-	+	39	0
-	+	39	0
-	+	39	11
-	+	39	0
-	+	37	0
-	+	1	0
-	+	1	0
-	+	39	0
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/less/art.less
-	"	1	0
-	^	59	9
-	.	40	0
-	+	1	0
-	+	40	27
-	+	46	20
-	+	51	24
-	+	52	22
-	+	54	30
-	+	62	0
-	+	47	28
-	+	34	10
-	+	35	0
-	+	34	17
-	+	47	41
-	+	48	31
-	+	53	27
-	+	41	0
-	+	42	0
-	+	41	18
-	+	13	0
-	+	13	28
-	+	12	19
-	+	12	0
-	+	18	25
-	+	34	18
-	+	12	4
-	+	13	3
-	+	12	0
-	+	13	0
-	+	55	8
-	+	59	9
-	+	13	0
-	+	40	0
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/less/app-main.less
-	"	8	17
-	^	8	18
-	.	8	17
-	+	9	16
-	+	7	16
-	+	8	17
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/less/rubrics.less
-	"	30	10
-	^	2	44
-	.	2	43
-	+	9	10
-	+	10	27
-	+	39	0
-	+	11	21
-	+	12	41
-	+	14	41
-	+	23	0
-	+	16	0
-	+	17	0
-	+	16	19
-	+	27	23
-	+	33	0
-	+	28	0
-	+	28	45
-	+	38	0
-	+	36	0
-	+	37	0
-	+	37	28
-	+	37	8
-	+	38	0
-	+	32	0
-	+	28	0
-	+	31	0
-	+	35	11
-	+	36	33
-	+	13	26
-	+	10	24
-	+	10	0
-	+	10	0
-	+	5	23
-	+	6	24
-	+	7	0
-	+	5	15
-	+	21	28
-	+	3	1
-	+	2	43
-
-> ~/.vim/snippets/less.snippets
-	"	1	0
-	^	54	44
-	.	54	43
-	+	1	0
-	+	55	0
-	+	54	43
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/less/header.less
-	"	104	18
-	^	19	28
-	.	104	0
-	+	6	23
-	+	70	0
-	+	104	0
-	+	104	39
-	+	104	41
-	+	60	0
-	+	67	0
-	+	67	13
-	+	69	0
-	+	99	0
-	+	67	0
-	+	99	0
-	+	104	0
-	+	67	0
-	+	104	0
-	+	80	0
-	+	74	0
-	+	73	29
-	+	79	0
-	+	78	19
-	+	75	0
-	+	76	0
-	+	75	27
-	+	72	45
-	+	17	14
-	+	18	0
-	+	21	0
-	+	19	27
-	+	104	0
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/js/libs/jquery.imageZoom.js
-	"	53	7
-	.	53	0
-	+	54	5
-	+	51	73
-	+	40	7
-	+	36	30
-	+	45	76
-	+	48	36
-	+	45	26
-	+	51	73
-	+	51	10
-	+	37	32
-	+	19	19
-	+	30	36
-	+	72	0
-	+	86	0
-	+	113	0
-	+	112	5
-	+	111	0
-	+	95	7
-	+	90	38
-	+	95	8
-	+	75	36
-	+	90	19
-	+	89	23
-	+	90	0
-	+	30	0
-	+	95	11
-	+	93	0
-	+	110	0
-	+	94	38
-	+	98	40
-	+	99	50
-	+	100	0
-	+	99	80
-	+	102	21
-	+	101	87
-	+	108	0
-	+	105	44
-	+	72	54
-	+	105	47
-	+	104	69
-	+	106	53
-	+	75	36
-	+	107	42
-	+	65	5
-	+	64	0
-	+	63	10
-	+	57	0
-	+	45	21
-	+	51	72
-	+	115	18
-	+	70	0
-	+	82	0
-	+	82	50
-	+	51	0
-	+	53	0
-	+	53	0
-	+	82	0
-	+	83	85
-	+	53	0
-	+	53	37
-	+	53	60
-	+	61	22
-	+	43	98
-	+	42	0
-	+	43	28
-	+	44	56
-	+	6	38
-	+	7	49
-	+	38	0
-	+	104	49
-	+	101	41
-	+	82	41
-	+	45	21
-	+	51	28
-	+	53	20
-	+	45	50
-	+	53	36
-	+	45	49
-	+	51	0
-	+	48	37
-	+	83	65
-	+	82	0
-	+	45	20
-	+	61	0
-	+	120	25
-	+	119	27
-	+	50	72
-	+	48	37
-	+	45	26
-	+	47	47
-	+	45	56
-	+	45	0
-	+	50	0
-	+	45	0
-	+	50	28
-	+	45	0
-	+	49	63
-	+	50	35
-	+	49	37
-	+	53	0
-
-> /c/xampp/htdocs/laravel/vera/gulpfile.js
-	"	15	34
-	^	15	35
-	.	15	34
-	+	15	34
-
-> /c/xampp/htdocs/laravel/vera/resources/assets/js/app.js
-	"	52	37
-	^	52	38
-	.	52	37
-	+	22	38
-	+	23	31
-	+	24	30
-	+	25	31
-	+	69	21
-	+	45	0
-	+	40	17
-	+	44	47
-	+	19	0
-	+	20	37
-	+	30	50
-	+	32	0
-	+	31	28
-	+	30	27
-	+	44	22
-	+	31	38
-	+	72	21
-	+	51	71
-	+	53	0
-	+	52	37
-
-> /c/training/learingVue/app/Http/Controllers/ResourceController.php
-	"	76	8
-	.	76	0
-	+	84	0
-	+	85	0
-	+	74	46
-	+	83	14
-	+	81	46
-	+	83	21
-	+	8	16
-	+	74	16
-	+	81	17
-	+	76	12
-	+	76	0
-
-> /c/training/learingVue/app/Http/routes.php
-	"	122	14
-	^	122	15
-	.	122	14
-	+	14	13
-	+	39	0
-	+	33	22
-	+	30	0
-	+	37	0
-	+	29	27
-	+	36	31
-	+	41	14
-	+	36	12
-	+	41	36
-	+	43	47
-	+	46	0
-	+	45	0
-	+	38	20
-	+	15	25
-	+	17	0
-	+	16	25
-	+	26	0
-	+	32	0
-	+	31	25
-	+	62	4
-	+	63	0
-	+	68	65
-	+	68	42
-	+	69	2
-	+	68	0
-	+	68	21
-	+	68	24
-	+	68	53
-	+	68	37
-	+	68	60
-	+	68	54
-	+	68	0
-	+	68	54
-	+	68	0
-	+	64	0
-	+	61	38
-	+	64	0
-	+	65	7
-	+	63	7
-	+	66	0
-	+	67	45
-	+	57	2
-	+	56	0
-	+	55	17
-	+	51	22
-	+	71	0
-	+	71	36
-	+	83	0
-	+	73	4
-	+	73	17
-	+	76	0
-	+	75	8
-	+	74	66
-	+	75	64
-	+	80	37
-	+	82	40
-	+	74	12
-	+	75	12
-	+	89	2
-	+	88	0
-	+	87	25
-	+	91	0
-	+	91	35
-	+	95	0
-	+	94	0
-	+	97	0
-	+	97	38
-	+	97	0
-	+	97	29
-	+	125	0
-	+	97	0
-	+	104	57
-	+	124	2
-	+	106	23
-	+	104	47
-	+	97	0
-	+	100	0
-	+	103	0
-	+	104	24
-	+	105	0
-	+	109	0
-	+	109	40
-	+	119	4
-	+	118	0
-	+	117	31
-	+	116	0
-	+	113	0
-	+	113	0
-	+	115	45
-	+	117	44
-	+	121	44
-	+	121	0
-	+	121	21
-	+	121	6
-	+	123	13
-	+	121	0
-	+	123	0
-	+	122	0
-	+	122	14
-	p	82	27
-	z	62	19
-
-> /c/training/learingVue/ControlP
-	"	2	0
-	.	2	0
-	+	2613	0
-	+	2584	0
-	+	2555	0
-	+	2526	0
-	+	2497	0
-	+	2468	0
-	+	2439	0
-	+	2410	0
-	+	2381	0
-	+	2352	0
-	+	2323	0
-	+	2294	0
-	+	2265	0
-	+	2236	0
-	+	2207	0
-	+	2178	0
-	+	2149	0
-	+	2120	0
-	+	2091	0
-	+	2062	0
-	+	2033	0
-	+	2004	0
-	+	1975	0
-	+	1946	0
-	+	1917	0
-	+	1888	0
-	+	1859	0
-	+	1830	0
-	+	1801	0
-	+	1	0
-	+	1772	0
-	+	1743	0
-	+	1714	0
-	+	1685	0
-	+	1656	0
-	+	1627	0
-	+	1598	0
-	+	1569	0
-	+	1540	0
-	+	1511	0
-	+	1482	0
-	+	1453	0
-	+	1424	0
-	+	1395	0
-	+	1366	0
-	+	1337	0
-	+	1308	0
-	+	1279	0
-	+	1250	0
-	+	1221	0
-	+	1192	0
-	+	1163	0
-	+	1134	0
-	+	1105	0
-	+	1076	0
-	+	1047	0
-	+	1018	0
-	+	989	0
-	+	960	0
-	+	931	0
-	+	902	0
-	+	873	0
-	+	844	0
-	+	815	0
-	+	786	0
-	+	757	0
-	+	728	0
-	+	699	0
-	+	670	0
-	+	641	0
-	+	612	0
-	+	583	0
-	+	554	0
-	+	525	0
-	+	496	0
-	+	467	0
-	+	438	0
-	+	409	0
-	+	380	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	350	0
-	+	321	0
-	+	292	0
-	+	263	0
-	+	234	0
-	+	205	0
-	+	176	0
-	+	147	0
-	+	118	0
-	+	89	0
-	+	60	0
-	+	31	0
-	+	2	0
-
-> /c/training/learingVue/resources/assets/js/resource.js
-	"	25	37
-	^	25	38
-	.	25	37
-	+	3	0
-	+	12	19
-	+	10	8
-	+	33	0
-	+	16	11
-	+	24	11
-	+	48	2
-	+	32	0
-	+	24	61
-	+	27	0
-	+	25	33
-	+	31	35
-	+	27	14
-	+	12	26
-	+	3	0
-	+	6	0
-	+	5	0
-	+	3	0
-	+	3	34
-	+	24	13
-	+	25	15
-	+	27	12
-	+	25	15
-	+	27	12
-	+	25	14
-	+	24	12
-	+	12	19
-	+	27	0
-	+	22	0
-	+	22	33
-	+	3	0
-	+	21	32
-	+	45	9
-	+	46	0
-	+	44	19
-	+	42	0
-	+	39	14
-	+	3	0
-	+	3	37
-	+	3	0
-	+	3	29
-	+	22	0
-	+	17	8
-	+	17	0
-	+	3	0
-	+	17	0
-	+	22	0
-	+	22	61
-	+	24	40
-	+	22	56
-	+	24	86
-	+	27	14
-	+	24	28
-	+	27	13
-	+	24	19
-	+	27	23
-	+	24	32
-	+	25	0
-	+	25	32
-	+	27	0
-	+	24	34
-	+	25	33
-	+	24	68
-	+	25	0
-	+	26	36
-	+	22	0
-	+	23	27
-	+	25	19
-	+	16	8
-	+	25	37
-
-> /c/training/learingVue/app/Http/Middleware/VerifyCsrfToken.php
-	"	15	24
-	^	15	25
-	.	15	24
-	+	16	0
-	+	15	24
-
-> /c/training/learingVue/gulpfile.js
-	"	4	0
-	.	4	0
-	+	4	0
-	+	6	21
-	+	7	28
-	+	3	32
-	+	7	15
-	+	8	33
-	+	4	0
-
-> /c/training/learingVue/resources/assets/js/main.js
-	"	25	0
-	^	19	32
-	.	19	31
-	+	1	23
-	+	5	24
-	+	7	0
-	+	7	26
-	+	11	0
-	+	11	33
-	+	42	2
-	+	4	2
-	+	4	32
-	+	37	5
-	+	4	0
-	+	13	0
-	+	22	0
-	+	21	4
-	+	20	3
-	+	19	28
-	+	18	0
-	+	36	0
-	+	29	29
-	+	32	44
-	+	33	0
-	+	34	0
-	+	35	0
-	+	33	38
-	+	34	21
-	+	35	45
-	+	34	39
-	+	33	40
-	+	32	42
-	+	19	31
-
-> /c/training/learingVue/resources/views/tasks.blade.php
-	"	1	0
-	^	32	56
-	.	32	55
-	+	1	0
-	+	23	0
-	+	23	0
-	+	38	42
-	+	23	0
-	+	23	42
-	+	9	11
-	+	23	54
-	+	14	15
-	+	14	7
-	+	14	55
-	+	23	60
-	+	14	53
-	+	23	41
-	+	23	17
-	+	23	36
-	+	23	15
-	+	23	0
-	+	23	48
-	+	37	38
-	+	37	18
-	+	37	11
-	+	23	0
-	+	37	0
-	+	18	19
-	+	18	0
-	+	23	0
-	+	23	0
-	+	23	0
-	+	23	0
-	+	23	0
-	+	23	34
-	+	37	38
-	+	23	23
-	+	14	0
-	+	11	15
-	+	13	0
-	+	12	19
-	+	12	39
-	+	12	50
-	+	12	35
-	+	12	0
-	+	37	16
-	+	37	22
-	+	37	34
-	+	37	27
-	+	37	39
-	+	37	52
-	+	37	35
-	+	37	20
-	+	37	62
-	+	23	0
-	+	37	0
-	+	23	0
-	+	23	44
-	+	23	15
-	+	23	36
-	+	23	0
-	+	23	40
-	+	23	26
-	+	23	0
-	+	21	0
-	+	38	43
-	+	23	0
-	+	25	38
-	+	36	7
-	+	26	11
-	+	29	0
-	+	21	0
-	+	27	0
-	+	29	0
-	+	28	0
-	+	22	0
-	+	21	49
-	+	30	0
-	+	34	0
-	+	30	67
-	+	31	32
-	+	21	18
-	+	41	0
-	+	7	0
-	+	7	97
-	+	8	0
-	+	32	55
-
-> /c/training/learingVue/resources/views/resource.blade.php
-	"	14	8
-	^	11	44
-	.	6	0
-	+	1	0
-	+	13	0
-	+	20	0
-	+	34	0
-	+	35	0
-	+	19	26
-	+	23	0
-	+	24	23
-	+	26	65
-	+	30	15
-	+	29	45
-	+	10	16
-	+	12	7
-	+	11	39
-	+	34	28
-	+	11	43
-	+	6	0
-
-> /c/training/learingVue/public/js/resource.js
-	"	11308	0
-
-> /c/training/learingVue/database/migrations/2016_03_18_205006_create_resources_table.php
-	"	18	32
-	^	18	33
-	.	18	32
-	+	18	32
-
-> /c/training/learingVue/database/factories/ModelFactory.php
-	"	42	2
-	^	40	35
-	.	39	34
-	+	35	2
-	+	37	0
-	+	36	0
-	+	37	28
-	+	39	34
-
-> /c/training/learingVue/database/seeds/PostSeeder.php
-	"	10	46
-	^	10	47
-	.	10	46
-	+	8	0
-	+	7	0
-	+	11	0
-	+	10	46
-
-> /c/training/learingVue/database/seeds/ResourcesTableSeeder.php
-	"	14	50
-	^	14	51
-	.	14	50
-	+	15	0
-	+	14	50
-
-> /c/training/learingVue/database/seeds/DatabaseSeeder.php
-	"	14	12
-	^	14	13
-	.	14	12
-	+	15	29
-	+	14	49
-	+	15	9
-	+	14	12
-
-> /c/training/learingVue/app/Resource.php
-	"	9	43
-	^	9	44
-	.	9	43
-	+	10	0
-	+	10	0
-	+	9	43
-
-> /c/training/learingVue/resources/views/directives.blade.php
-	"	15	89
-	^	15	90
-	.	15	89
-	+	1	0
-	+	21	0
-	+	23	47
-	+	15	49
-	+	19	47
-	+	19	48
-	+	19	48
-	+	19	38
-	+	20	0
-	+	16	43
-	+	17	28
-	+	19	49
-	+	15	54
-	+	7	0
-	+	15	89
-
-> /c/training/learingVue/resources/views/exercise.blade.php
-	"	1	0
-	^	15	40
-	.	15	39
-	+	1	0
-	+	26	0
-	+	27	45
-	+	14	0
-	+	15	34
-	+	18	29
-	+	18	31
-	+	15	35
-	+	16	29
-	+	17	11
-	+	16	45
-	+	15	32
-	+	18	0
-	+	11	0
-	+	7	0
-	+	14	29
-	+	20	0
-	+	21	31
-	+	23	51
-	+	24	11
-	+	22	0
-	+	8	67
-	+	23	63
-	+	21	29
-	+	15	25
-	+	16	24
-	+	21	50
-	+	15	31
-	+	16	38
-	+	21	39
-	+	15	43
-	+	16	42
-	+	15	19
-	+	16	109
-	+	23	0
-	+	16	96
-	+	16	45
-	+	17	0
-	+	15	39
-
-> /c/training/learingVue/resources/views/alerts.blade.php
-	"	35	0
-	^	31	56
-	.	31	55
-	+	1	0
-	+	7	0
-	+	8	0
-	+	14	0
-	+	36	0
-	+	37	40
-	+	33	11
-	+	14	19
-	+	15	41
-	+	17	11
-	+	16	49
-	+	19	32
-	+	21	51
-	+	33	0
-	+	22	39
-	+	22	0
-	+	20	0
-	+	24	0
-	+	23	0
-	+	24	31
-	+	25	31
-	+	26	32
-	+	7	48
-	+	37	37
-	+	29	44
-	+	29	17
-	+	30	0
-	+	31	72
-	+	29	0
-	+	31	55
-
-> /c/training/learingVue/public/js/app-tasks2.js
-	"	26	0
-	^	26	0
-	.	26	0
-	+	36	2
-	+	10	0
-	+	1	20
-	+	35	0
-	+	35	23
-	+	35	0
-	+	33	14
-	+	10	18
-	+	35	0
-	+	10	0
-	+	28	0
-	+	9	5
-	+	7	20
-	+	13	49
-	+	13	0
-	+	13	29
-	+	13	0
-	+	13	0
-	+	13	30
-	+	13	20
-	+	27	0
-	+	19	0
-	+	15	11
-	+	15	5
-	+	13	0
-	+	12	28
-	+	15	0
-	+	15	0
-	+	21	0
-	+	21	0
-	+	16	0
-	+	15	0
-	+	26	0
-
-> /c/training/learingVue/resources/assets/js/components/Alert.vue
-	"	10	17
-	^	10	18
-	.	10	18
-	+	9	8
-	+	10	22
-	+	32	4
-	+	7	0
-	+	1	0
-	+	3	0
-	+	2	43
-	+	2	43
-	+	4	11
-	+	3	20
-	+	4	54
-	+	12	0
-	+	27	50
-	+	30	9
-	+	10	18
-
-> /c/training/learingVue/public/js/app-directives.js
-	"	50	53
-	^	33	63
-	.	33	62
-	+	42	2
-	+	4	18
-	+	42	5
-	+	41	0
-	+	16	5
-	+	42	0
-	+	42	5
-	+	14	15
-	+	4	21
-	+	12	21
-	+	15	32
-	+	42	0
-	+	54	2
-	+	12	0
-	+	11	73
-	+	24	0
-	+	21	46
-	+	40	0
-	+	39	68
-	+	21	60
-	+	22	49
-	+	30	5
-	+	30	25
-	+	11	14
-	+	2	0
-	+	1	86
-	+	1	1
-	+	52	0
-	+	50	76
-	+	7	0
-	+	30	0
-	+	29	0
-	+	50	76
-	+	49	17
-	+	50	0
-	+	51	0
-	+	15	9
-	+	9	0
-	+	9	30
-	+	23	47
-	+	34	5
-	+	33	25
-	+	32	19
-	+	33	62
-
-> /c/training/learingVue/package.json
-	"	7	29
-	^	7	30
-	.	7	30
-	+	8	0
-	+	7	30
-
-> /c/training/learingVue/resources/views/messages.blade.php
-	"	1	0
-	^	13	56
-	.	13	55
-	+	1	0
-	+	8	0
-	+	14	0
-	+	16	0
-	+	16	0
-	+	13	55
-
-> /c/training/learingVue/public/js/app-messages.js
-	"	34	65
-	^	34	66
-	.	35	0
-	+	38	2
-	+	24	0
-	+	4	0
-	+	18	0
-	+	17	0
-	+	11	0
-	+	11	50
-	+	16	0
-	+	17	0
-	+	15	29
-	+	3	32
-	+	6	30
-	+	3	33
-	+	5	12
-	+	6	8
-	+	5	10
-	+	6	14
-	+	11	32
-	+	13	55
-	+	28	0
-	+	28	62
-	+	30	0
-	+	37	0
-	+	28	48
-	+	26	5
-	+	27	5
-	+	28	5
-	+	29	5
-	+	30	7
-	+	32	4
-	+	31	4
-	+	36	0
-	+	34	11
-	+	33	31
-	+	34	0
-	+	34	66
-	+	34	63
-	+	35	0
-
-> /c/training/learingVue/database/migrations/2016_03_18_083748_create_posts_table.php
-	"	18	27
-	^	18	33
-	.	18	32
-	+	18	32
-
-> /c/training/learingVue/app/Post.php
-	"	9	43
-	^	9	44
-	.	9	43
-	+	10	0
-	+	9	43
-
-> /c/training/learingVue/app/Exceptions/Handler.php
-	"	53	8
-	^	53	9
-	.	53	0
-	+	54	0
-	+	52	20
-	+	53	0
-
-> /c/training/learingVue/public/js/main.js
-	"	196	1
-	^	196	2
-	.	196	0
-	+	196	0
-
-> /c/training/learingVue/resources/assets/less/components/alerts.less
-	"	11	8
-	^	11	9
-	.	10	8
-	+	1	15
-	+	2	0
-	+	15	8
-	+	10	8
-
-> /c/training/learingVue/.env
-	"	1	0
-
-> ~/.vimrc
-	"	152	0
-	^	155	27
-	.	155	26
-	+	150	0
-	+	149	36
-	+	145	21
-	+	146	47
-	+	146	0
-	+	150	33
-	+	151	38
-	+	156	0
-	+	152	35
-	+	223	22
-	+	223	22
-	+	49	0
-	+	49	12
-	+	115	24
-	+	223	22
-	+	229	0
-	+	229	0
-	+	224	37
-	+	224	36
-	+	224	0
-	+	225	0
-	+	225	0
-	+	231	0
-	+	231	0
-	+	231	0
-	+	226	0
-	+	153	0
-	+	227	7
-	+	133	0
-	+	154	38
-	+	124	12
-	+	130	33
-	+	130	0
-	+	49	0
-	+	125	0
-	+	126	0
-	+	68	0
-	+	126	0
-	+	128	0
-	+	130	0
-	+	153	32
-	+	155	26
-
-> /c/training/learingVue/public/css/exercise.css
-	"	1	0
-	^	10	26
-	.	10	25
-	+	1	8
-	+	2	23
-	+	3	21
-	+	5	0
-	+	23	0
-	+	5	17
-	+	19	23
-	+	22	20
-	+	24	0
-	+	13	17
-	+	16	0
-	+	14	3
-	+	3	1
-	+	14	25
-	+	15	26
-	+	13	8
-	+	8	0
-	+	12	0
-	+	8	12
-	+	9	21
-	+	10	25
-
-> /c/training/learingVue/resources/assets/less/app.less
-	"	1	27
-	^	1	28
-	.	1	27
-	+	1	27
-	p	1	0
-
-> /c/xampp/htdocs/laravel/Vera/resources/views/partials/footer.blade.php
-	"	52	36
-	^	52	37
-	.	52	36
-	+	1	133
-	+	6	0
-	+	53	11
-	+	52	68
-	+	10	0
-	+	11	46
-	+	29	23
-	+	37	23
-	+	8	49
-	+	45	27
-	+	10	0
-	+	13	0
-	+	27	0
-	+	13	32
-	+	27	31
-	+	13	65
-	+	16	0
-	+	18	0
-	+	23	0
-	+	22	0
-	+	17	0
-	+	19	65
-	+	20	123
-	+	19	52
-	+	24	0
-	+	24	0
-	+	24	0
-	+	25	141
-	+	24	82
-	+	39	42
-	+	37	52
-	+	31	47
-	+	11	47
-	+	48	36
-	+	29	53
-	+	33	31
-	+	33	0
-	+	32	0
-	+	37	0
-	+	36	0
-	+	34	89
-	+	35	65
-	+	41	0
-	+	42	72
-	+	43	49
-	+	41	52
-	+	42	66
-	+	6	45
-	+	35	88
-	+	52	36
-
-> /c/xampp/htdocs/laravel/Vera/resources/assets/less/footer.less
-	"	46	24
-	^	46	25
-	.	46	24
-	+	31	0
-	+	21	25
-	+	24	19
-	+	30	0
-	+	27	7
-	+	26	5
-	+	27	32
-	+	28	34
-	+	16	17
-	+	12	0
-	+	10	18
-	+	11	0
-	+	14	5
-	+	3	0
-	+	2	21
-	+	6	0
-	+	4	22
-	+	3	23
-	+	5	19
-	+	21	40
-	+	17	14
-	+	10	13
-	+	62	0
-	+	41	26
-	+	61	0
-	+	38	0
-	+	40	0
-	+	50	11
-	+	48	0
-	+	59	0
-	+	51	22
-	+	52	19
-	+	44	4
-	+	47	0
-	+	46	26
-	+	59	0
-	+	53	17
-	+	54	25
-	+	46	24
-	+	55	46
-	+	56	28
-	+	46	24
-	+	57	36
-	+	58	34
-	+	21	39
-	+	22	21
-	+	21	40
-	+	17	26
-	+	18	20
-	+	26	19
-	+	30	0
-	+	29	0
-	+	42	28
-	+	58	0
-	+	53	21
-	+	20	0
-	+	19	18
-	+	67	23
-	+	68	0
-	+	37	15
-	+	46	24
-	y	21	23
-
-> /c/xampp/htdocs/laravel/Vera/resources/assets/less/mixins.less
-	"	23	0
-	^	23	0
-	.	9	0
-	+	8	1
-	+	9	0
-
-> /c/xampp/htdocs/laravel/Vera/resources/assets/less/variables.less
-	"	9	25
-	^	9	26
-	.	9	25
-	+	13	0
-	+	12	0
-	+	13	35
-	+	14	32
-	+	9	25
-
-> ~/.vim/snippets/css.snippets
-	"	12	12
-	^	51	19
-	.	51	18
-	+	3	11
-	+	6	24
-	+	15	21
-	+	18	34
-	+	21	24
-	+	27	10
-	+	8	11
-	+	12	12
-	+	52	0
-	+	30	31
-	+	32	16
-	+	33	14
-	+	31	26
-	+	30	31
-	+	31	27
-	+	32	17
-	+	33	15
-	+	25	0
-	+	24	29
-	+	36	17
-	+	39	17
-	+	52	0
-	+	45	16
-	+	27	11
-	+	29	0
-	+	28	0
-	+	48	18
-	+	52	0
-	+	51	18
-
-> /c/xampp/htdocs/laravel/Vera/resources/assets/js/libs/jquery.imageLinker.js
-	"	12	45
-	^	12	46
-	.	12	45
-	+	99	0
-	+	110	19
-	+	97	0
-	+	57	0
-	+	60	38
-	+	66	0
-	+	66	24
-	+	56	7
-	+	66	0
-	+	101	30
-	+	99	23
-	+	101	0
-	+	100	0
-	+	102	31
-	+	12	0
-	+	12	8
-	+	52	0
-	+	12	0
-	+	12	0
-	+	12	8
-	+	12	19
-	+	98	18
-	+	99	26
-	+	102	34
-	+	68	16
-	+	75	39
-	+	66	50
-	+	61	42
-	+	73	25
-	+	74	26
-	+	66	44
-	+	62	31
-	+	73	33
-	+	74	35
-	+	99	37
-	+	57	18
-	+	58	24
-	+	110	34
-	+	110	20
-	+	110	48
-	+	98	36
-	+	110	20
-	+	111	0
-	+	99	16
-	+	91	50
-	+	91	0
-	+	91	0
-	+	91	34
-	+	91	58
-	+	99	0
-	+	82	33
-	+	81	51
-	+	82	32
-	+	90	0
-	+	87	31
-	+	82	29
-	+	87	0
-	+	89	40
-	+	86	57
-	+	87	46
-	+	89	29
-	+	87	0
-	+	88	49
-	+	83	49
-	+	12	0
-	+	45	35
-	+	46	26
-	+	47	34
-	+	51	9
-	+	51	0
-	+	52	0
-	+	49	36
-	+	50	33
-	+	48	22
-	+	48	0
-	+	24	0
-	+	103	0
-	+	39	37
-	+	14	47
-	+	42	0
-	+	42	25
-	+	47	47
-	+	42	0
-	+	23	27
-	+	37	5
-	+	28	34
-	+	142	0
-	+	141	28
-	+	28	27
-	+	34	18
-	+	35	34
-	+	36	0
-	+	35	46
-	+	36	0
-	+	32	8
-	+	30	12
-	+	30	0
-	+	31	10
-	+	141	29
-	+	12	45
-
-> /c/xampp/htdocs/laravel/Vera/resources/views/layouts/master.blade.php
-	"	24	9
-	^	24	10
-	.	24	9
-	+	24	9
-
-> /c/xampp/htdocs/laravel/Vera/resources/assets/js/libs/jquery.mySlider.js
-	"	13	8
-	.	13	0
-	+	13	0
-
-> /c/training/learingVue/public/js/app-exercise.js
-	"	32	30
-	^	32	31
-	.	32	30
-	+	35	2
-	+	34	0
-	+	31	0
-	+	1	24
-	+	25	2
-	+	9	0
-	+	3	32
-	+	24	0
-	+	11	20
-	+	23	0
-	+	7	22
-	+	33	0
-	+	32	30
-
-> /c/training/learingVue/public/ControlP
-	"	2	0
-	.	2	0
-	+	89	0
-	+	60	0
-	+	31	0
-	+	2	0
-
-> app/Http/routes.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/home.blade.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/layouts/master.blade.php
-	"	8	0
-
-> /c/xampp/htdocs/laravel/Tsj32/ControlP
-	"	1	0
-	.	2	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	31	0
-	+	2	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Acme/MetaData/MetaData.php
-	"	17	44
-	^	13	98
-	.	13	96
-	+	13	150
-	+	14	0
-	+	15	0
-	+	14	0
-	+	15	0
-	+	17	42
-	+	22	0
-	+	21	42
-	+	25	43
-	+	29	43
-	+	13	96
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/CreateDebtor.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/UpdateDebtor.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/debtorform.blade.php
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/debtors.blade.php
-	"	1	16
-	.	15	0
-	+	23	0
-	+	15	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/editdebtor.blade.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/newdebtor.blade.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Acme/Models/Debtor.php
-	"	20	2
-	.	20	0
-	+	20	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/PagesController.php
-	"	31	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/DebtorsController.php
-	"	88	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/debtors.blade.php
-	"	25	16
-	.	26	0
-	+	13	0
-	+	26	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/UpdateDocument.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/routes.php
-	"	75	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/DocumentsController.php
-	"	2	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/ScansController.php
-	"	71	0
-	^	134	0
-	.	80	30
-	+	50	31
-	+	80	30
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/CalculatorsController.php
-	"	97	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/CreateContractor.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/UpdateContractor.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/contractorform.blade.php
-	"	18	0
-	.	19	0
-	+	19	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/contractors.blade.php
-	"	1	20
-	.	25	0
-	+	17	0
-	+	25	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/ContractorsController.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/errors/404.blade.php
-	"	1	0
-
-> /c/xampp/htdocs/laravel/Tsj32/app/Acme/Models/Contractor.php
-	"	24	0
-	^	21	18
-	.	21	18
-	+	22	0
-	+	21	18
-
-> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/components/footer.blade.php
-	"	9	158
-	^	9	159
-	.	9	158
-	+	9	158
-
-> /c/xampp/htdocs/laravel/Vera/package.json
-	"	7	29
-	^	7	30
-	.	7	30
-	+	7	30
-
-> /c/training/advanced/resources/views/admin/blog/create_post.blade.php
-	"	1	24
-	^	52	42
-	.	52	41
-	+	1	0
-	+	2	0
-	+	1	22
-	+	3	0
-	+	6	0
-	+	5	10
-	+	4	65
-	+	8	26
-	+	62	0
-	+	9	0
-	+	8	0
-	+	9	37
-	+	11	0
-	+	11	52
-	+	18	0
-	+	16	39
-	+	23	48
-	+	26	30
-	+	25	40
-	+	33	49
-	+	36	94
-	+	36	0
-	+	36	53
-	+	14	0
-	+	18	0
-	+	48	0
-	+	41	56
-	+	43	37
-	+	47	7
-	+	46	67
-	+	52	41
-
-> /c/training/advanced/public/css/admin.css
-	"	261	0
-	^	261	1
-	.	261	0
-	+	149	13
-	+	150	15
-	+	154	25
-	+	156	17
-	+	160	0
-	+	161	0
-	+	160	16
-	+	162	0
-	+	164	10
-	+	165	0
-	+	262	0
-	+	165	0
-	+	262	0
-	+	165	26
-	+	166	0
-	+	186	0
-	+	166	0
-	+	186	0
-	+	170	26
-	+	171	0
-	+	171	27
-	+	172	0
-	+	173	0
-	+	172	0
-	+	173	0
-	+	185	0
-	+	177	0
-	+	178	0
-	+	177	16
-	+	178	0
-	+	183	0
-	+	184	22
-	+	185	0
-	+	186	0
-	+	185	20
-	+	186	27
-	+	187	0
-	+	194	0
-	+	187	27
-	+	191	27
-	+	192	0
-	+	193	0
-	+	192	22
-	+	193	0
-	+	194	0
-	+	193	16
-	+	194	0
-	+	195	0
-	+	194	17
-	+	198	22
-	+	199	23
-	+	200	27
-	+	201	0
-	+	204	0
-	+	213	4
-	+	204	30
-	+	205	21
-	+	207	0
-	+	213	4
-	+	207	19
-	+	208	0
-	+	212	0
-	+	213	4
-	+	213	0
-	+	220	0
-	+	221	0
-	+	220	16
-	+	223	0
-	+	262	0
-	+	223	13
-	+	224	0
-	+	223	13
-	+	224	0
-	+	262	0
-	+	224	20
-	+	225	0
-	+	226	0
-	+	228	16
-	+	229	22
-	+	230	0
-	+	258	0
-	+	230	27
-	+	231	27
-	+	232	0
-	+	257	0
-	+	232	23
-	+	233	21
-	+	237	0
-	+	242	26
-	+	243	0
-	+	257	0
-	+	243	20
-	+	244	0
-	+	247	18
-	+	251	0
-	+	252	0
-	+	255	17
-	+	256	0
-	+	259	17
-	+	261	0
-	a	255	3
-
-> /c/training/advanced/ControlP
-	"	1	0
-	.	2	0
+	+	1104	0
+	+	1075	0
+	+	1046	0
+	+	1017	0
+	+	988	0
+	+	959	0
+	+	930	0
+	+	901	0
+	+	872	0
+	+	843	0
+	+	814	0
+	+	785	0
+	+	756	0
+	+	727	0
+	+	698	0
+	+	669	0
+	+	640	0
+	+	611	0
 	+	582	0
 	+	553	0
 	+	524	0
@@ -2350,211 +859,1113 @@ $
 	+	31	0
 	+	2	0
 
-> /c/training/advanced/resources/views/layouts/master.blade.php
-	"	1	0
-	^	12	18
-	.	12	17
-	+	1	0
-	+	5	29
-	+	6	0
-	+	16	0
-	+	11	34
-	+	12	21
-	+	13	28
-	+	8	23
-	+	15	33
-	+	7	54
-	+	12	17
-
-> /c/training/advanced/resources/views/layouts/admin.blade.php
-	"	17	40
-	^	17	41
-	.	17	40
-	+	1	0
-	+	5	25
-	+	7	55
-	+	12	0
-	+	11	32
-	+	20	0
-	+	19	24
-	+	14	0
-	+	13	0
-	+	16	16
-	+	18	0
-	+	17	40
-
-> /c/training/advanced/resources/views/partials/admin-header.blade.php
-	"	8	32
-	^	8	33
-	.	8	32
-	+	1	0
-	+	4	35
-	+	5	31
-	+	6	36
-	+	7	42
-	+	8	32
-
-> /c/training/advanced/resources/views/admin/index.blade.php
-	"	95	74
-	^	95	75
-	.	95	74
+> /c/training/LoginModal/resources/views/fuck.blade.php
+	"	10	48
+	^	10	49
+	.	10	48
 	+	1	0
 	+	2	0
-	+	1	22
+	+	1	20
 	+	3	0
-	+	6	0
-	+	4	63
-	+	5	10
-	+	6	0
 	+	9	0
-	+	15	0
-	+	10	36
-	+	15	41
-	+	16	42
-	+	15	58
-	+	16	64
-	+	15	49
-	+	16	49
-	+	21	0
-	+	23	20
-	+	24	19
-	+	23	42
-	+	24	37
-	+	26	0
-	+	29	46
-	+	32	0
-	+	35	53
-	+	36	53
-	+	37	53
-	+	35	65
-	+	36	59
-	+	37	61
-	+	47	7
-	+	48	0
-	+	52	68
-	+	59	38
-	+	60	34
-	+	64	46
-	+	65	42
-	+	66	58
-	+	71	67
-	+	72	60
-	+	37	46
-	+	63	64
-	+	80	31
-	+	82	55
-	+	83	59
-	+	84	7
-	+	83	54
-	+	96	10
-	+	90	35
-	+	92	3
-	+	91	44
-	+	94	71
-	+	95	74
-
-> ~/.vim/snippets/html.snippets
-	"	1	0
-	^	22	0
-	.	24	0
-	+	7	47
-	+	10	9
-	+	16	8
-	+	12	6
-	+	25	0
-	+	12	8
-	+	13	8
-	+	14	3
-	+	17	6
-	+	9	0
-	+	8	3
-	+	15	35
-	+	21	0
-	+	25	0
-	+	29	86
-	+	31	14
-	+	32	0
-	+	32	90
-	+	41	0
-	+	31	14
-	+	36	6
-	+	37	7
-	+	33	0
-	+	35	3
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	57
-	+	40	4
-	+	17	2
-	+	22	0
-	+	24	0
-
-> /c/training/advanced/app/Http/routes.php
-	"	33	33
-	^	33	34
-	.	33	33
-	+	3	0
-	+	3	0
-	+	37	0
 	+	5	0
-	+	8	0
-	+	7	27
+	+	4	0
+	+	1	23
+	+	10	24
 	+	11	0
-	+	15	4
-	+	16	30
-	+	17	46
-	+	11	20
-	+	18	27
+	+	14	0
+	+	11	0
+	+	16	50
 	+	25	0
-	+	24	6
-	+	23	43
-	+	24	20
-	+	37	23
-	+	21	0
-	+	37	0
+	+	17	0
 	+	26	0
-	+	29	0
-	+	28	24
-	+	36	0
-	+	7	21
-	+	36	6
-	+	36	30
-	+	36	85
-	+	36	0
-	+	36	0
-	+	38	0
-	+	38	0
-	+	31	0
-	+	33	33
-
-> /c/training/advanced/app/Http/Controllers/AdminController.php
-	"	15	34
-	^	15	35
-	.	15	34
-	+	18	0
-	+	11	0
-	+	15	34
-
-> /c/training/advanced/public/css/modal.css
-	"	32	17
-	^	32	18
-	.	32	17
+	+	35	3
+	+	28	0
 	+	33	0
-	+	4	27
-	+	5	33
-	+	6	0
+	+	23	0
+	+	36	0
+	+	41	3
+	+	38	0
+	+	18	121
+	+	19	125
+	+	20	137
+	+	21	36
+	+	23	21
+	+	13	57
+	+	12	60
+	+	29	121
+	+	30	100
+	+	29	102
+	+	30	131
+	+	31	34
+	+	33	30
+	+	12	19
+	+	13	19
+	+	39	124
+	+	40	36
+	+	10	6
+	+	6	29
+	+	7	26
+	+	10	48
+
+> /c/training/LoginModal/gulpfile.js
+	"	15	13
+	^	15	14
+	.	15	13
+	+	15	23
+	+	16	29
+	+	15	13
+
+> /c/training/LoginModal/resources/views/layouts/master.blade.php
+	"	37	6
+	^	7	32
+	.	7	31
+	+	1	0
+	+	16	39
+	+	29	0
+	+	35	53
+	+	16	63
 	+	7	0
-	+	6	25
+	+	7	31
+
+> /c/training/LoginModal/public/js/main.js
+	"	1	0
+
+> /c/training/LoginModal/public/css/style.css
+	"	1	0
+
+> /c/training/js/Advanced/2/index.html
+	"	16	50
+	^	21	34
+	.	21	33
+	+	22	0
+	+	10	37
+	+	10	35
+	+	10	40
+	+	10	38
+	+	10	15
+	+	10	40
+	+	10	25
+	+	21	42
+	+	10	0
+	+	21	42
+	+	22	0
+	+	21	33
+
+> /c/training/js/Advanced/2/main.js
+	"	61	14
+	^	61	15
+	.	61	14
+	+	20	0
+	+	19	49
+	+	17	0
+	+	9	58
+	+	10	47
+	+	11	0
+	+	19	0
+	+	64	39
+	+	64	0
+	+	19	10
+	+	64	20
+	+	19	35
+	+	9	0
+	+	7	0
+	+	64	0
+	+	64	0
+	+	9	62
+	+	64	0
+	+	64	24
+	+	10	45
+	+	64	0
+	+	4	0
+	+	2	0
+	+	64	0
+	+	14	0
+	+	12	0
+	+	15	17
+	+	19	20
+	+	64	0
+	+	3	91
+	+	8	47
+	+	13	55
+	+	18	75
+	+	20	0
+	+	23	36
+	+	24	25
+	+	28	18
+	+	25	6
+	+	26	0
+	+	28	40
+	+	32	20
+	+	32	52
+	+	33	0
+	+	31	63
+	+	32	2
+	+	32	64
+	+	37	76
+	+	37	15
+	+	36	29
+	+	37	34
+	+	37	54
+	+	37	36
+	+	37	27
+	+	37	10
+	+	37	18
+	+	54	0
+	+	37	78
+	+	37	36
+	+	37	29
+	+	53	5
+	+	38	26
+	+	53	11
+	+	38	4
+	+	37	0
+	+	52	0
+	+	38	46
+	+	37	0
+	+	47	17
+	+	49	42
+	+	37	0
+	+	40	0
+	+	46	0
+	+	39	0
+	+	40	12
+	+	38	0
+	+	41	52
+	+	43	36
+	+	54	0
+	+	63	0
+	+	62	0
+	+	63	0
+	+	61	14
+
+> /c/training/js/Advanced/2/ControlP
+	"	1	0
+	.	2	0
+	+	263	0
+	+	234	0
+	+	205	0
+	+	176	0
+	+	147	0
+	+	118	0
+	+	89	0
+	+	60	0
+	+	31	0
+	+	2	0
+
+> /c/training/js/Advanced/1/index.html
+	"	8	24
+	^	8	25
+	.	8	24
+	+	11	0
+	+	8	24
+
+> /c/training/js/Advanced/1/main.js
+	"	1	0
+	^	11	2
+	.	11	1
+	+	11	1
+
+> /c/training/js/Advanced/1/commons.js
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/managerform.blade.php
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/ControlP
+	"	1	0
+	.	2	0
+	+	775	0
+	+	746	0
+	+	717	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	692	0
+	+	663	0
+	+	634	0
+	+	605	0
+	+	576	0
+	+	547	0
+	+	518	0
+	+	489	0
+	+	460	0
+	+	431	0
+	+	402	0
+	+	373	0
+	+	344	0
+	+	315	0
+	+	286	0
+	+	257	0
+	+	1	0
+	+	1	0
+	+	200	0
+	+	171	0
+	+	142	0
+	+	113	0
+	+	84	0
+	+	55	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/administratorform.blade.php
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/managers_table.blade.php
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/administrators_table.blade.php
+	"	33	20
+	^	8	8
+	.	14	0
+	+	1	29
+	+	12	0
+	+	14	0
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/routes.php
+	"	82	59
+	^	82	66
+	.	82	65
+	+	52	0
+	+	51	0
+	+	52	61
+	+	80	0
+	+	80	104
+	+	82	0
+	+	81	0
+	+	82	110
+	+	80	61
+	+	82	65
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/AdministratorsController.php
+	"	36	30
+	^	36	31
+	.	36	30
+	+	92	0
+	+	13	0
+	+	15	43
+	+	17	36
+	+	22	38
+	+	26	15
+	+	28	22
+	+	36	33
+	+	15	38
+	+	43	19
+	+	58	0
+	+	60	19
+	+	58	44
+	+	78	19
+	+	7	0
+	+	15	35
+	+	8	0
+	+	9	0
+	+	36	30
+	z	78	20
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/AdminController.php
+	"	48	122
+	^	48	123
+	.	48	122
+	+	38	38
+	+	38	46
+	+	48	122
+	z	38	38
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/editadministrator.blade.php
+	"	27	78
+	^	27	79
+	.	27	78
+	+	1	0
+	+	11	96
+	+	12	63
+	+	14	46
+	+	27	102
+	+	11	73
+	+	27	78
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/PagesController.php
+	"	92	119
+	^	92	120
+	.	92	119
+	+	82	46
+	+	84	0
+	+	83	0
+	+	84	31
+	+	92	119
+	+	17	0
+	+	84	16
+	+	92	119
+	z	84	29
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/managers.blade.php
+	"	14	0
+	^	13	70
+	.	13	68
+	+	13	0
+	+	16	0
+	+	15	47
+	+	13	68
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/partials/managers_table.blade.php
+	"	1	20
+	^	1	12
+	.	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/partials/administrators_table.blade.php
+	"	7	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/partials/mangers_table.blade.php
+	"	29	20
+	.	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/database/migrations/2016_04_22_144450_create_contacts_table.php
+	"	23	41
+	^	23	42
+	.	23	42
+	+	18	0
+	+	18	40
+	+	19	40
+	+	20	34
+	+	21	34
+	+	22	41
+	+	24	0
+	+	23	42
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/dashboard.blade.php
+	"	19	41
+	^	19	77
+	.	19	77
+	+	19	77
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/ContactsController.php
+	"	23	0
+	^	23	119
+	.	23	117
+	+	46	0
+	+	13	22
+	+	15	13
+	+	30	24
+	+	32	27
+	+	44	32
+	+	25	28
+	+	32	13
 	+	7	0
 	+	8	0
-	+	7	19
-	+	11	18
+	+	9	0
+	+	23	0
+	+	23	117
+	z	23	16
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Controllers/Admin/ManagersController.php
+	"	43	0
+	^	1	16
+	.	2	0
+	+	1	16
+	+	2	0
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/UpdateContact.php
+	"	10	11
+	^	10	20
+	.	4	0
+	+	8	0
+	+	10	20
+	+	13	0
+	+	10	19
+	+	4	0
+	z	10	11
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/CreateManager.php
+	"	26	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/editmanager.blade.php
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/contacts.blade.php
+	"	9	0
+	^	11	69
+	.	28	0
+	+	1	0
+	+	7	76
+	+	11	32
+	+	13	39
+	+	24	0
+	+	12	0
+	+	11	69
+	+	33	0
+	+	28	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/partials/contactform.blade.php
+	"	11	53
+	^	14	33
+	.	14	32
+	+	54	0
+	+	1	0
+	+	54	0
+	+	2	0
+	+	11	0
+	+	2	0
+	+	29	0
+	+	37	0
+	+	36	0
+	+	44	0
+	+	46	0
+	+	45	0
+	+	38	41
+	+	41	33
+	+	50	33
+	+	4	0
+	+	5	32
+	+	4	69
+	+	13	79
+	+	22	69
+	+	31	69
+	+	40	59
+	+	49	59
+	+	13	59
+	+	14	32
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Contact.php
+	"	13	23
+	^	13	24
+	.	13	24
+	+	7	0
+	+	7	27
+	+	8	15
+	+	14	0
+	+	8	23
+	+	9	21
+	+	11	0
+	+	10	21
+	+	11	15
+	+	12	24
 	+	13	24
-	+	18	13
-	+	22	17
-	+	23	20
-	+	22	11
-	+	27	42
-	+	28	20
-	+	32	17
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/layouts/admin.blade.php
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/components/flash.blade.php
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/components/footer.blade.php
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/management.blade.php
+	"	45	0
+	^	21	75
+	.	21	74
+	+	17	68
+	+	19	46
+	+	22	0
+	+	21	74
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Acme/MetaData/MetaData.php
+	"	60	2
+	.	60	0
+	+	20	0
+	+	24	10
+	+	24	58
+	+	24	0
+	+	60	0
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Acme/Models/Manager.php
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Acme/Models/Administrator.php
+	"	14	8
+	^	14	9
+	.	11	34
+	+	1	0
+	+	2	0
+	+	8	18
+	+	11	34
+
+> /c/xampp/htdocs/laravel/Tsj32/database/migrations/2016_01_12_164207_create_announcementscans_table.php
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/database/migrations/2016_04_22_134558_create_administrators_table.php
+	"	36	0
+	^	21	33
+	.	21	32
+	+	18	0
+	+	18	31
+	+	19	0
+	+	20	0
+	+	21	0
+	+	19	36
+	+	20	30
+	+	21	32
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/CreateAdministrator.php
+	"	20	3
+	.	4	0
+	+	31	0
+	+	31	0
+	+	8	0
+	+	31	0
+	+	4	0
+	z	10	9
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/UpdateManager.php
+	"	9	0
+
+> /c/xampp/htdocs/laravel/Tsj32/app/Http/Requests/UpdateAdministrator.php
+	"	25	0
+	.	4	0
+	+	8	0
+	+	32	0
+	+	4	0
+	z	10	11
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/newmanager.blade.php
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/admin/newadministrator.blade.php
+	"	13	49
+	^	13	47
+	.	13	46
+	+	1	0
+	+	11	55
+	+	13	34
+	+	15	0
+	+	13	46
+
+> resources/views/admin/partials/administratorform/blade.php
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/.env.production
+	"	1	0
+
+> /c/xampp/htdocs/laravel/Tsj32/resources/views/pages/components/online.blade.php
+	"	4	46
+	^	4	48
+	.	4	48
+	+	12	85
+	+	15	62
+	+	19	61
+	+	24	64
+	+	27	0
+	+	28	83
+	+	32	56
+	+	28	89
+	+	32	62
+	+	33	62
+	+	28	90
+	+	28	0
+	+	28	115
+	+	28	78
+	+	29	58
+	+	30	19
+	+	31	15
+	+	4	48
+
+> /c/training/Charts/resources/views/custom.blade.php
+	"	9	41
+	^	9	42
+	.	9	42
+	+	1	0
+	+	10	0
+	+	11	0
+	+	9	39
+	+	11	39
+	+	9	42
+
+> /c/training/Charts/ControlP
+	"	2	0
+	.	2	0
+	+	1824	0
+	+	1795	0
+	+	1766	0
+	+	1737	0
+	+	1708	0
+	+	1679	0
+	+	1650	0
+	+	1621	0
+	+	1592	0
+	+	1563	0
+	+	1534	0
+	+	1505	0
+	+	1476	0
+	+	1447	0
+	+	1418	0
+	+	1389	0
+	+	1360	0
+	+	1331	0
+	+	1302	0
+	+	1273	0
+	+	1244	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1220	0
+	+	1191	0
+	+	1162	0
+	+	1133	0
+	+	1104	0
+	+	1075	0
+	+	1046	0
+	+	1017	0
+	+	988	0
+	+	959	0
+	+	930	0
+	+	901	0
+	+	872	0
+	+	843	0
+	+	814	0
+	+	785	0
+	+	756	0
+	+	727	0
+	+	698	0
+	+	669	0
+	+	640	0
+	+	611	0
+	+	582	0
+	+	553	0
+	+	524	0
+	+	495	0
+	+	466	0
+	+	437	0
+	+	408	0
+	+	379	0
+	+	350	0
+	+	321	0
+	+	292	0
+	+	263	0
+	+	234	0
+	+	205	0
+	+	176	0
+	+	147	0
+	+	118	0
+	+	89	0
+	+	60	0
+	+	31	0
+	+	2	0
+
+> /c/training/Charts/resources/assets/js/api-custom-revenue.js
+	"	11	0
+	^	11	3
+	.	11	0
+	+	1	22
+	+	2	39
+	+	11	0
+
+> /c/training/Charts/resources/assets/js/api-revenue.js
+	"	5	20
+	^	5	21
+	.	5	20
+	+	11	2
+	+	2	38
+	+	5	20
+
+> /c/training/Charts/resources/assets/js/components/GraphRevenue.js
+	"	28	11
+	^	28	12
+	.	28	12
+	+	1	31
+	+	35	2
+	+	1	31
+	+	16	5
+	+	5	13
+	+	15	0
+	+	6	42
+	+	35	3
+	+	6	3
+	+	12	20
+	+	12	56
+	+	13	55
+	+	14	0
+	+	11	0
+	+	20	0
+	+	8	32
+	+	35	0
+	+	34	0
+	+	35	59
+	+	35	0
+	+	35	42
+	+	33	0
+	+	35	0
+	+	23	0
+	+	24	0
+	+	8	56
+	+	32	0
+	+	28	0
+	+	28	12
+
+> /c/training/Charts/resources/assets/js/components/GraphParent.js
+	"	51	30
+	^	51	31
+	.	51	30
+	+	1	28
+	+	6	0
+	+	6	0
+	+	54	1
+	+	52	5
+	+	21	5
+	+	24	19
+	+	32	0
+	+	29	34
+	+	30	54
+	+	31	13
+	+	36	10
+	+	41	0
+	+	40	49
+	+	41	20
+	+	42	33
+	+	43	27
+	+	44	21
+	+	47	0
+	+	45	0
+	+	42	40
+	+	46	68
+	+	51	48
+	+	53	4
+	+	52	0
+	+	2	21
+	+	4	25
+	+	54	1
+	+	45	25
+	+	42	17
+	+	39	16
+	+	51	30
+
+> /c/training/Charts/resources/assets/js/components/GraphApi.js
+	"	26	0
+	^	23	38
+	.	23	37
+	+	3	0
+	+	48	0
+	+	6	66
+	+	47	2
+	+	22	31
+	+	24	12
+	+	34	14
+	+	24	0
+	+	24	38
+	+	33	17
+	+	30	111
+	+	33	19
+	+	46	0
+	+	40	38
+	+	45	0
+	+	41	48
+	+	42	24
+	+	44	39
+	+	26	53
+	+	30	86
+	+	29	40
+	+	30	86
+	+	27	31
+	+	30	110
+	+	28	0
+	+	29	0
+	+	31	25
+	+	32	0
+	+	3	15
+	+	47	1
+	+	1	26
+	+	30	53
+	+	24	0
+	+	23	37
+
+> /c/training/Charts/gulpfile.js
+	"	17	43
+	^	17	44
+	.	17	43
+	+	16	23
+	+	17	43
+
+> /c/training/Charts/app/Http/routes.php
+	"	78	43
+	^	78	44
+	.	78	42
+	+	28	0
+	+	29	0
+	+	47	0
+	+	48	10
+	+	48	0
+	+	53	2
+	+	37	33
+	+	41	2
+	+	66	2
+	+	44	51
+	+	45	0
+	+	46	0
+	+	55	2
+	+	5	0
+	+	3	0
+	+	8	0
+	+	9	0
+	+	8	14
+	+	6	0
+	+	8	19
+	+	69	0
+	+	69	39
+	+	70	4
+	+	71	0
+	+	79	2
+	+	78	71
+	+	8	0
+	+	77	0
+	+	76	35
+	+	78	42
+
+> /c/training/Charts/database/migrations/2016_04_14_111905_create_performances_table.php
+	"	16	0
+
+> /c/training/Charts/database/migrations/2016_04_21_161815_create_revenues_table.php
+	"	20	36
+	.	17	0
+	+	17	0
+
+> /c/training/Charts/app/Revenue.php
+	"	19	9
+	^	19	10
+	.	19	9
+	+	10	0
+	+	10	44
+	+	12	65
+	+	15	0
+	+	15	44
+	+	17	3
+	+	15	50
+	+	18	39
+	+	19	9
+	z	18	39
+
+> /c/training/Charts/vendor/nesbot/carbon/src/Carbon/Carbon.php
+	"	1	0
+
+> /c/training/Charts/database/factories/ModelFactory.php
+	"	37	11
+	^	33	12
+	.	32	27
+	+	32	0
+	+	31	0
+	+	32	27
+
+> /c/training/Charts/database/seeds/PerformanceSeeder.php
+	"	1	0
+
+> /c/training/Charts/database/seeds/RevenueSeeder.php
+	"	14	50
+	^	14	51
+	.	14	50
+	+	14	50
+
+> /c/training/Charts/database/seeds/DatabaseSeeder.php
+	"	15	41
+	^	15	42
+	.	15	41
+	+	15	0
+	+	15	41
+
+> /c/training/Charts/app/Http/Middleware/Admin.php
+	"	19	8
+	.	19	0
+	+	11	0
+	+	10	0
+	+	19	0
+	+	16	47
+	+	17	0
+	+	15	22
+	+	13	27
+	+	6	0
+	+	19	0
+	z	13	19
+
+> /c/training/Charts/app/Http/Kernel.php
+	"	51	10
+	^	51	11
+	.	51	0
+	+	32	0
+	+	51	0
+
+> /c/training/Charts/database/migrations/2014_10_12_000000_create_users_table.php
+	"	1	0
+
+> /c/training/Charts/app/User.php
+	"	29	14
+	^	29	15
+	.	29	15
+	+	27	0
+	+	29	15
+
+> /c/training/Charts/resources/views/api.blade.php
+	"	1	0
+	^	11	30
+	.	11	29
+	+	1	0
+	+	13	0
+	+	9	27
+	+	13	33
+	+	11	0
+	+	10	0
+	+	11	29
+
+> /c/training/Charts/resources/assets/js/revenue.js
+	"	1	0
+
+> /c/training/Charts/resources/assets/js/components/Graph2.js
+	"	3	0
+
+> ~/.vimrc
+	"	1	0
+	^	179	45
+	.	179	44
+	+	118	32
+	+	178	0
+	+	171	22
+	+	169	54
+	+	170	0
+	+	179	44
+
+> /c/training/Charts/app/Performance.php
+	"	1	0
+
+> /c/training/Charts/app/Http/Controllers/Controller.php
+	"	1	0
+
+> /c/training/Charts/resources/views/revenue.blade.php
+	"	1	0
+
+> /c/training/Prophecy/tests/ExampleTest.php
+	"	38	32
+	^	38	33
+	.	38	32
+	+	1	0
+	+	2	0
+	+	3	51
+	+	5	0
+	+	6	35
+	+	15	0
+	+	15	43
+	+	52	0
+	+	52	22
+	+	52	0
+	+	15	35
+	+	15	28
+	+	15	38
+	+	15	19
+	+	15	0
+	+	15	0
+	+	8	0
+	+	15	38
+	+	10	55
+	+	12	49
+	+	15	0
+	+	14	38
+	+	52	0
+	+	6	36
+	+	17	0
+	+	18	0
+	+	19	41
+	+	25	25
+	+	27	38
+	+	47	0
+	+	49	31
+	+	51	0
+	+	31	0
+	+	29	4
+	+	30	0
+	+	32	34
+	+	40	38
+	+	38	32
+
+> /c/training/Prophecy/src/BladeDirective.php
+	"	28	8
+	^	28	9
+	.	28	0
+	+	1	0
+	+	2	0
+	+	3	19
+	+	7	0
+	+	9	0
+	+	9	29
+	+	9	0
+	+	6	0
+	+	5	20
+	+	12	0
+	+	12	29
+	+	17	0
+	+	17	19
+	+	10	0
+	+	12	24
+	+	17	0
+	+	14	26
+	+	15	0
+	+	15	37
+	+	16	9
+	+	20	0
+	+	20	40
+	+	30	20
+	+	27	39
+	+	28	0
+
+> /c/training/Prophecy/composer.json
+	"	9	4
+	^	9	5
+	.	9	0
+	+	9	0
+
+> /c/training/Prophecy/src/RussianCache.php
+	"	14	0
+	^	10	26
+	.	10	25
+	+	1	0
+	+	2	0
+	+	3	18
+	+	4	0
+	+	5	0
+	+	5	22
+	+	10	0
+	+	10	25
+
+> /c/training/Prophecy/ControlP
+	"	2	0
+	.	2	0
+	+	379	0
+	+	350	0
+	+	321	0
+	+	292	0
+	+	263	0
+	+	234	0
+	+	205	0
+	+	176	0
+	+	147	0
+	+	118	0
+	+	89	0
+	+	60	0
+	+	31	0
+	+	2	0

@@ -3,46 +3,34 @@ snippet met
 	{
 		${3}
 	}
-
 snippet metp
 	protected function ${1}(${2})
 	{
 		${3}
 	}
-
-				
 snippet mets
 	public static function ${1}(${2})
 	{
 		${3}
 	}
-
-
 snippet metps
 	protected static function ${1}(${2})
 	{
 		${3}
 	}
-
 snippet pfc
 	public function __construct(${1})
 	{
 		${2}
 	}
-
 snippet rg
 	Route::get('${1}', [${2}]);
-
-
 snippet rp
 	Route::post('${1}', [${2}]);
-
 snippet $t
 	$this->${1}
-
 snippet form-open
 	{!! Form::open(['route' => '${1:}'])) !!}
-
 snippet inputtext
 	<!-- Input.text  -->
 	<div class="form-group {{ $errors->has('${1:name}') ? 'has-error' : '' }}">
@@ -52,26 +40,27 @@ snippet inputtext
 	{!! $errors->first('$1', '<span class="help-block">:message</span>') !!}
 				    
 	</div>
-
+snippet inputfile
+	<!-- Input.file -->
+	<div class="form group {{ $errors->has('${1:file}') ? 'has-error' : '' }}">
+		{!! Form::label('$1', '${2}') !!}
+		{!! Form::file('$1') !!}
+		{!! $errors->first('$1', '<span class="help-block">:message</span>') !!}
+	</div>
 snippet inputsubmit
 	{!! Form::submit('${1:Submit}', ['class' => 'btn btn-info']) !!}
-
 snippet @test
 	/** @test */
 	function it_${1}()
 	{
 		${2}
 	}
-
 snippet script
 	<script type="text/javascript" src="${1}"></script>
-
 snippet bootstrap
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-
 snippet font-awesome
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-	
 snippet html
 	<!doctype html>
 	<html>
@@ -89,22 +78,19 @@ snippet html
 			<script src="js/app.js"></script>
 		</body>
 	</html>
-
 snippet class
-	
+	<?php
+
 	namespace ${1};
 
-	class ${2} 
+	class ${2}
 	{
-
+		${3}
 	}
-
 snippet vue
 	<script src="//cdnjs.cloudflare.com/ajax/libs/vue/1.0.17/vue.js"></script>
-
 snippet jquery
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
 snippet blade
 	@extends('${1:layouts.master}')
 
@@ -113,7 +99,6 @@ snippet blade
 	@section('${2:content}')
 		${4}
 	@endsection
-
 snippet errorcount
 	@if(count($errors) > 0)
 		<section class="alert alert-danger">
@@ -122,7 +107,6 @@ snippet errorcount
 			@endforeach
 		</section>
 	@endif
-
 snippet contactform
 	{!! Form::open(['route' => '${1}']) !!}
 
@@ -166,7 +150,6 @@ snippet contactform
 	{!! Form::submit('${8:Отправить}', ['class' => 'btn btn-info']) !!}
 
 	{!! Form::close() !!}
-
 snippet info-box
 	@if(count($errors) > 0)
 		<section class="${1:alert} ${2:alert-danger}">
@@ -187,3 +170,33 @@ snippet info-box
 			{{ Session::get('success') }}
 		</section>
 	@endif
+snippet tryformrequest
+	try {
+
+		$paintingForm
+			->model($painting)
+			->parentModel(Rubric::class, 'rubric_id')
+			->withFile('file')
+			->persist();
+
+	} catch (FormRequestException $e) {
+		flash()->error('Системная ошибка!', $e->getMessage());
+
+		return redirect()->back();
+	}
+snippet tabstr
+	$table->string('${1}');
+snippet tabtext
+	$table->text('${1}');
+snippet tabint
+	$table->integer('${1}');
+snippet tabdec
+	$table->decimal('${1}', ${2:10}, ${3:2});
+snippet lsec
+	@section('${1}')
+
+		${2}
+
+	@endsection
+snippet fil
+	protected $fillable = ['${1}'];

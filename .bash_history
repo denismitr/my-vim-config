@@ -1,500 +1,500 @@
-train
-cd pre
-cd presenter/
-cd app/
-mkdir Acme
-ctags php
-ctags-php
-:e ~/.bash_profile 
-vim ~/.bash_profile 
-cd ..
-ctags-laravel 
-ctags-laravel 
-art make:migration createPostTable
-art
-art
-art make:migration createPostTable
-art make:migration createPostTable --create=posts
+pu
+pu
+art make:model Article -m
 art migrate
-art tinker
-art serve
-art workbench denismitr
-art workbench help
-art help workbench
-art help
-art
-art help vendor:publish
-art help vendor
-art help vendor:publish
-art
-composer require illuminate/workbench
-cd ..
-mkdir workbench
-cd workbench/
-composer require illuminate/workbench
-vim
-cd ~/Code
-cd Repos/
-cd fadingButton/
-php -S localhost:8000
-cd ~/Code/Repos/fadingButton/
-vim
-homestead up
-homestead ssh
-homestead destroy
-vim
-vim
-cd Code
-repos
-cd vim/
-git status
-git add .
-git commit -m "New plugins"
-git push
-vim
-cd ..
-cd fadingButton/
-vim
-train
-laravel new mass-users
-cd mass-users/
-art make:auth
-vim
-art tinker
-vim
-repos
-ls'
-;
-ls
-exit
-ls
-cd fadingButton/
-vim
-train
-cd mass-users/
-art tinker
-art tinker
-art serve
-repos
-cd fadingButton/
-php -S localhost:8888
-repos
-cd fadingButton/
-php -S localhost:8000
-repos
-cd fadingButton/
-vim
-git status
-git add .
-git commit -m "Plugin ready"
-git remote add origin let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/c/Code/Repos/fadingButton'
-git remote add origin https://github.com/denismitr/fadingButton.git
-git push -u origin master
-touch LICENSE.txt
-vim LICENSE.txt 
-git status
-git add .
-git push
-git commit -m "Adds license"
-git push
-cd ..
-cd vim/
-git status
-git add .
-git rm .bash_history 
-git status
-git add .
-git commit -m "New plugins"
-git push
-cd ..
-cd AssertJs/
-git status
-git commit -m "Adds new testing methods"
-git commit -am "Adds new testing methods"
-git push
-train
-cd intro
-php artisan make:model Author -m
-art make:model Quote -m
+touch database/database.sqlite
 art migrate
-composer require laravelcollective/html
-art make:controller QuoteController
-art serve
-python -v
-cd ~
-CD AppData/
-cd AppData/
-python
-vim
-train
-cd intro
-art serve
+pu
+pu
+pu
+pu
+pu
 cd ..
-cd learingVue/
-vim
-vim
-vim
-python
 train
-cd intro/
-vim
-ctags-laravel 
+cd UnitTest/
+art serve
+train
+cd UnitTest/
 vim
 cd ..
-ls
-laravel new learingVue
-cd learingVue/
-art serve
-cd ~
-python
+cd Python/
+ls -la
+rm ar/ -rf
+mkdir buildIn
+cd buildIn/
+vim
+python main.py 
+vim
+vim
+xampp-l
+cd vera
+vim
+gulp
+мшь
+vim
+xampp-l
+cd Vera/
+vim
+vim
+gaa
+gc 'Lectures'
+xampp-l
+cd Vera/
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp watch
+xampp-l
+cd Vera/
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp watch
+gulp --production
+gulp --production
+gulp --production
+gulp
+gulp --production
+xampp
 train
-cd intro/
-vim
-vim
-vim
-vim
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/'
-let g:netrw_dirhist_2='/c/training/intro/resources/views'
-let g:netrw_dirhist_3='/c/training/intro/config'
-let g:netrw_dirhist_4='/c/training/intro/resources/views'
-curl -s --user 'api:key-9469ad0dd0ec46d365324f040938a555'     https://api.mailgun.net/v3/sandbox818e689f8ef74176817147ac0e6b086a.mailgun.org/messages     -F from='Mailgun Sandbox <postmaster@sandbox818e689f8ef74176817147ac0e6b086a.mailgun.org>'     -F to='Denis Mitrofanov <denis.mitr@gmail.com>'     -F subject='Hello Denis Mitrofanov'     -F text='Congratulations Denis Mitrofanov, you just sent an email with Mailgun!  You are truly awesome!'
-vim
-art make:model AuthorLog -m
-vim
-art make:model AuthorLog -m
-vim
-train
-cd intro/
-ctags-laravel 
-art serve
-art serve
-art serve
-train
-cd train
-cd intro/
-art make:model Admin -m
-art make:seed AdminTableSeeder
+cd UnitTest/
+pu
+art make:test TeamTest
+art make:model Team -m
+pu
+pu
+pu
 ctags-laravel
-art migrate
-art db:seed
-art AdminController
-art make:controller AdminController
-art serve
-art serve
-art make:middleware AdminMiddleware
-art serve
-:q
-:q
-train
-xampp
-cd laravel/
-cd TheCollection/
-gulp watch
-gulp
-gulp watch
-git status
-git status
-git add .
-git commit -am "Adds git section"
-train
-cd intro/
-vim
-vim
-vim
-vim
-vim
-vim
-vim
-vim
-vim
-xampp
-cd l
-cd laravel/
-cd Tsj32/
-екфшт
-train
-cd intro/
-vim
-train
-cd learingVue/
-train
-cd learingVue/
-vim
-vim
-vim
-vim
-cd train
-train
-cd learingVue/
-vim
-vim
-vim
-train
-cd intro
-art serve
-cd ..
-cd learingVue/
-art serve
-xampp
-cd laravel/
-cd TheCollection/
-gulp watch
-gulp --production
-gulp --production
-git status
-git add .
-git commit -m "Fixes css bugs"
-git checkout -b eventmail
-art event:generate
-git status
-git add .
-git commit -m "Sets events to double controll mail sending from the contact form"
-train
-cd learingVue/
-vim
-vim
-vim
-train
-cd learingVue/
-art serve
-art make:model Task -m
-art migrate
+art migrate --database=sqlite_testing
+art migrate --database=sqlite_test
+pu
+pu
+pu
+pu
+pu
+pu
 art tinker
-art serve
+art tinker
+pu
+pu
+pu
+pu
+art migrate:refresh
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
 train
-laravel new advanced
-cd advanced/
+cd UnitTest/
 vim
+cd ..
+cd Python/
+ls -la
+mkdir BlackJack
+cd BlackJack/
+touch main.py
 vim
-vim
-vim
-vim
-vim
-vim
+vim main.py 
 train
-cd advanced/
-art make:controller PostController
-art serve
-composer require "laravelcollective/html"
-art make:controller ContactMessageController
-art serve
+cd UnitTest/
+pu
+pu
+pu
+pu
+art make:test integration/LikesTest
 art make:model Post -m
-art make:model Category -m
-art make:model ContactMessage -m
-art make:model Admin -m
-art make:migration create_post_category_table
-art make:migration create_categoty_post_table --create=category_post
-php artisan make:seed AdminTableSeeder
-php artisan make:seed CategoryTableSeeder
 art migrate
+art make:mode Like -m
 art migrate
-art db:seed
-art db:seed
-art db:seed
-art db:seed
-art db:seed
-art db:seed
-art db:seed
-art migrate:refresh
-art db:seed
-art migrate:refresh
-art db:seed
+ctags-laravel
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
+pu
 art tinker
-xampp
-cd laravel/
-cd TheCollection/
-gulp watch
-gulp
-gulp watch
-git status
-gulp --production
-gulp --production
-gulp --production
-git status
-xampp
-cd laravel/
+art tinker
 train
-cd advanced/
+cd js
+cd VueSort/
+php -S localhost:8000
+xampp-l
+cd vera
+gulp --prodution
+gulp --production
+gulp --production
+gulp --production
+gulp --production
+gulp --production
+gulp --production
+gulp --production
+gulp --production
+gulp --production
+git status
+gaa
+gc 'Responsive adjustments'
 vim
-vim
-vim
-vim
-xampp
-cd laravel/
-mkdir vera
-laravel new Vera
-cd Vera
-php artisan
-npm install
+train
+cd UnitTest/'
+;
+cd UnitTest/
+ vim
+cd ..
+cd j
+cd js
 ls
-vim package.json 
-npm install
-git init
-git status
-git add .
-git status
-git commit -m "First"
-cd ..
+cd Waypoints/
+vim
+code
+cd Repos/
+mkdir timers
+cd timers
+vim
+train
+ls
+cd js
+mkdir VueSort
+cd VueSort/
+touch index.html
+touch main.js
+vim
+vim index.html 
+xampp-l
 cd Tsj32/
 vim
-vim
+git status
+gaa
+gc 'Fixes managers sort bug'
 train
-cd learingVue/
-vim
-vim
-train
-cd advanced/
-art make:controller AdminController
-art make:controller AdminController
-art serve
-xampp
-cd laravel/
-cd Vera/
-gulp
-art make:controller PagesController
-cd ..
-cd Tsj32/
-git status
-git status
-git status
-git status
-git status
-git status
-git status
-git status
-git add .
-git commit -m "Fixes data flaws"
-git status
-train
-cd learingVue/
-art serve
-xampp
-cd laravel/
-cd Vera/
-gulp
-gulp waatch
-gulp watch
-gulp
-gulp watch
-git status
-git add .
-git commit -m "Creates menu and slider"
-xampp
-cd laravel/
-cd Vera/
-gulp
-gulp watch
-xampp
-cd laravel/
-cd cd vera
-cd Vera/
-gulp
-gulp watch
-gulp watch
-train
-vim
-cd learingVue/
-vim
-vim
-vim
-vim
-vim
-vim
-vim
-vim
-:q
-xampp
-cd laravel/
-cd V
-cd Vera/
+cd UnitTest/
 vim
 vim
 cd ..
-cd TheCollection/
-git status
-git add .
-git commit -m "Mail and fonts"
-git checnkout
-git checkout master 
-git status
-git merge eventmail 
-git checkout -b "responsive"
-git gulp watch
-gulp watch
-gulp --production
-gulp --production
-gulp --production
-git status
-git add .
-git commit -m "Responsive"
+mkdir regex
+cd regex/
+mkdir tests
+mkdir src
+composer require phpunit/phpunit --dev
+ls
+cat composer.json 
+vim
+train
+cd regex/
+composer dump-autoload
+vim
 cd ..
-cd Vera/
+cd js
+mkdir Observer
+cd Observer
+touch observer.js
 vim
-vim
-vim
-train
-cd lear
-cd learingVue/
-art serve
-vim
-npm install
-gulp
-npm install laravel-elixir-vueify
-gulp
-gulp
-gulp
-art serve
-:q
-train
-cd learingVue/
+vim observer.js 
+cd ..
+cd ..
+laravel new LoginModal
+cd LoginModal/
 vim
 train
-cd learingVue/
+cd LoginModal/
 art serve
-xampp
-cd laravel/
-cd Vera/
-gulp
-gulp watch
-git status
-git add .
-git commit -m "Exhibitions page"
+train
+cd regex/
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu test
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
 cd ~
-pip
-pip install patool
-pip -v
-pip install patool
-pip install patool
-xampp
-cd laravel/Vera/
+vim .bash_profile 
+train
+cd req
+cd regex/
+pu
+pu tests
+pu tests
+pu tests
+pu
+pu tests
+pu tests
+pu tests
+pu tests
+pu
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+cd ..
+cd lo
+cd LoginModal/
+npm install
+npm install
+npm install
+npm install
+npm install
+npm install
+npm install vue laravel-elixir-vueify --save
+gulp
+gulp
 gulp watch
-git status
-git add .
-git commit -m "Fixes form button"
+cd ..
 train
-cd lear
-ce learingVue/
-cd learingVue/
+cd LoginModal/
 vim
-npm install vue-resource
-vim
+cd ..
+cd UnitTest/
 vim
 train
-cd learingVue/
+cd js
+ls
+cd ..
+ls
+cd LoginModal/
 gulp
-gulp
+gulp watch
+cd ..
+cd UnitTest/
+art make:test MailTest
+phpunit tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+composer dump-autoload
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+pu tests/MailTest.php 
+cd ..
+mkdir Prophecy
+cd Prophecy/
+composer require phpunit/phpunit
+mkdir tests
+touch tests/ExampleTest.php
+vim
+train
+cd LoginModal/
 art serve
-art make:model Resource -m
-art make:seeder ResourcesTableSeeder
+cd ..
+cd UnitTest/
+cd UnitTest/
+cd ..
+cd Prophecy/
+pu
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+mkdir src
+touch src/BladeDirective.php
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+pu tests
+train
+cd Charts/
+art serve
+train
+ls
+cd Charts/
+vim
+vim
+vim
+vim
+xampp-l
+cd Tsj32/
+vim
+train
+cd Charts/
+npm install vue-resource --sav
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp
+gulp
+art make:middleware Admin
+art tinker
+ctags-laravel
+gulp watch
+art make:model Revenue -m
+art make:seeder RevenueSeeder
+art migrate:refresh
 art db:seed
 art db:seed
+gulp
+gulp watch
+xampp-l
+cd Tsj32/
+xampp-l
+cd Tsj32/
+vim
+vim
+vim
+xampp-l
+cd Tsj32/
+art make:migration create_administrators_table
+art make:migration create_administrators_table --create="administrators"
 art migrate
-art db:seed
-art serve
-art make:controller ResourceController --resource
+art migrate
+art make:controller Admin/AdministratorsController
+art make:request CreateAdministrator
+art make:request UpdateAdministrator
+ctags-laravel
+art make:migration create_contacts_table --create=contacts
+art migrate
+art make:controller Admin/ContactsController --plain
+art make:model Contact
+art make:request UpdateContact
+ctags-laravel
+git status
+ga
+gaa
+gcc 'Fixes usability'
+gc 'Fixes usability'
+train
+cd js
+mkdir Advanced
+cd Advanced/
+mkdir
+mkdir 1
+cd 1
+touch index.html main.js
+vim
+train
+cd js
+cd 2
+cd Advanced/
+cd 2
+ls
+php -S localhost:8000
+cd ../../..
+cd LoginModal/
+art make:auth
+npm install vue-resource --save
 gulp
+gulp watch
+art tinker
+gulp
+ctags-laravel
+train
+cd LoginModal/
 art serve
+train
+cd js
+cd Advanced/
+mkdir 2
+cd 1
+cp index.html ../2/
+cd ..
+cd 2
+ls
+vim
+cd ../..
+cd ..
+cd LoginModal/
+vim
